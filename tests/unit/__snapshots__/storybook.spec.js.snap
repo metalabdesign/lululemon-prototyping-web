@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots LoveButton default 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="background-color: rgb(134, 212, 226); padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="background-color: rgb(134, 212, 226); padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <button
+                      class="v-btn theme--light red"
+                      type="button"
+                    >
+                      <div
+                        class="v-btn__content"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="v-icon material-icons theme--light"
+                        >
+                          favorite
+                        </i>
+                        
+  vue
+
+                      </div>
+                    </button>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
