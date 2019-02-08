@@ -51,3 +51,7 @@ npm run storybook
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## References
+
+Storybook integration inspired by https://habr.com/en/post/438354/ and adapted for pure-ES6 transpilation.
