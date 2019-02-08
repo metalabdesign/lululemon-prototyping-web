@@ -1,10 +1,12 @@
 <template>
   <div>
     <carousel
-      :per-page="1.2"
+      :perPageCustom="[[320, 2], [640, 4]]"
       :spacePadding="10"
       :mouse-drag="true"
       :loop="true"
+      :centerMode="false"
+      :scrollPerPage="false"
     >
       <slide v-for="(sl, i) in slides" :key="i" class="CarouselSlide">
         <v-img class="CarouselImage" :src="sl.image" cover height="300">
@@ -35,6 +37,33 @@ export default {
   data() {
     return {
       slides: [
+        {
+          title: "Get Grounded, Underground",
+          image: "https://c.stocksy.com/a/Y5L000/z9/81068.jpg",
+          time: "8AM",
+          duration: "1H",
+          price: "Free",
+          venue: "Pacific Centre",
+          ambassador: "Courtney Bailey"
+        },
+        {
+          title: "Get Grounded, Underground",
+          image: "https://c.stocksy.com/a/Y5L000/z9/81068.jpg",
+          time: "8AM",
+          duration: "1H",
+          price: "Free",
+          venue: "Pacific Centre",
+          ambassador: "Courtney Bailey"
+        },
+        {
+          title: "Get Grounded, Underground",
+          image: "https://c.stocksy.com/a/Y5L000/z9/81068.jpg",
+          time: "8AM",
+          duration: "1H",
+          price: "Free",
+          venue: "Pacific Centre",
+          ambassador: "Courtney Bailey"
+        },
         {
           title: "Get Grounded, Underground",
           image: "https://c.stocksy.com/a/Y5L000/z9/81068.jpg",
