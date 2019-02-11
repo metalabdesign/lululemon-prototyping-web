@@ -1,5 +1,6 @@
 import { storiesOf } from "@storybook/vue";
 import { VApp, VContent } from "vuetify/lib"; // <-- add the import
+import { Slide } from "vue-carousel";
 
 import CarouselComponent from "./Carousel.vue";
 
@@ -19,9 +20,38 @@ const appDecorator = () => {
   };
 };
 
+// Dummy slide component, defined locally for Storybook visualization.
+// Doesn't work as a Vue component (unsure why), so we keep it as a template literal.
+const slideTemplate = `
+  <slide style="padding-right: 20px;">
+    <v-img class="CarouselImage" src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg" cover height="300" style="filter: grayscale(100);">
+      <v-layout column fill-height>
+        <v-spacer></v-spacer>
+        <v-btn>RSVP</v-btn>
+      </v-layout>
+    </v-img>
+    <h3>Get Grounded, Underground</h3>
+    <div>
+      <v-icon>access_time</v-icon> 8AM • 1H
+      <v-icon>attach_money</v-icon> Free
+    </div>
+    <div><v-icon>location_on</v-icon> Pacific Centre</div>
+    <div>with Courtney Bailey</div>
+  </slide>
+`;
+
 storiesOf("Carousel", module)
   .addDecorator(appDecorator)
   .add("default", () => ({
-    components: { CarouselComponent },
-    template: `<carousel-component />`
+    components: { CarouselComponent, Slide },
+    template: `
+      <carousel-component>
+        ${slideTemplate}
+        ${slideTemplate}
+        ${slideTemplate}
+        ${slideTemplate}
+        ${slideTemplate}
+        ${slideTemplate}
+      </carousel-component>
+    `
   }));
