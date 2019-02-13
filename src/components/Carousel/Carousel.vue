@@ -15,11 +15,12 @@
 
 <script>
 import { Carousel } from "vue-carousel";
+import Slide from "../Slide/Slide.vue";
 
 export default {
   // This is named as such to avoid collision with the existing <carousel />
   name: "CarouselComponent",
-  components: { Carousel },
+  components: { Carousel, Slide },
   data() {
     return {};
   }
@@ -28,9 +29,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.CarouselSlide {
-  padding-right: 20px;
-}
 .CarouselImage {
   filter: grayscale(100%);
 }

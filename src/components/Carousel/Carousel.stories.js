@@ -3,6 +3,7 @@ import { VApp, VContent } from "vuetify/lib"; // <-- add the import
 import { Slide } from "vue-carousel";
 
 import CarouselComponent from "./Carousel.vue";
+import ExtendedSlide from "../Slide/Slide.vue";
 
 // Decorator for adding Storybook styles around the component to be rendered
 const appDecorator = () => {
@@ -52,6 +53,18 @@ storiesOf("Carousel", module)
         ${slideTemplate}
         ${slideTemplate}
         ${slideTemplate}
+      </carousel-component>
+    `
+  }))
+  .add("Extended Slide", () => ({
+    components: { CarouselComponent, slide: ExtendedSlide },
+    template: `
+      <carousel-component>
+        <slide>Test</slide>
+        <slide>Test</slide>
+        <slide>Test</slide>
+        <slide>Test</slide>
+        <slide>Test</slide>
       </carousel-component>
     `
   }));
