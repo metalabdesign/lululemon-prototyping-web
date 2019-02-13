@@ -4,6 +4,7 @@ import { Slide } from "vue-carousel";
 
 import CarouselComponent from "./Carousel.vue";
 import ExtendedSlide from "../Slide/Slide.vue";
+import ImageSlide from "../ImageSlide/ImageSlide.vue";
 
 // Decorator for adding Storybook styles around the component to be rendered
 const appDecorator = () => {
@@ -65,6 +66,18 @@ storiesOf("Carousel", module)
         <slide>Test</slide>
         <slide>Test</slide>
         <slide>Test</slide>
+      </carousel-component>
+    `
+  }))
+  .add("Image Slide", () => ({
+    components: { CarouselComponent, slide: ImageSlide },
+    template: `
+      <carousel-component>
+        <slide src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg" />
+        <slide src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg" />
+        <slide src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg" />
+        <slide src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg" />
+        <slide src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg" />
       </carousel-component>
     `
   }));
