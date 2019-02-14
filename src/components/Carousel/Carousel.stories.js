@@ -2,9 +2,7 @@ import { storiesOf } from "@storybook/vue";
 import { VApp, VContent } from "vuetify/lib"; // <-- add the import
 import { Slide } from "vue-carousel";
 
-import CarouselComponent from "./Carousel.vue";
-import ExtendedSlide from "../Slide/Slide.vue";
-import ImageSlide from "../ImageSlide/ImageSlide.vue";
+import Carousel from "./Carousel.vue";
 
 // Decorator for adding Storybook styles around the component to be rendered
 const appDecorator = () => {
@@ -24,7 +22,7 @@ const appDecorator = () => {
 
 // Dummy slide component, defined locally for Storybook visualization.
 // Doesn't work as a Vue component (unsure why), so we keep it as a template literal.
-const slideTemplate = `
+const eventSlide = `
   <slide style="padding-right: 20px;">
     <v-img class="CarouselImage" src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg" cover height="300" style="filter: grayscale(100);">
       <v-layout column fill-height>
@@ -42,42 +40,58 @@ const slideTemplate = `
   </slide>
 `;
 
+const imageSlide = `
+  <slide style="padding-right: 20px;">
+    <v-img class="CarouselImage" src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg" cover height="300" style="filter: grayscale(100);">
+    </v-img>
+  </slide>
+`;
+
 storiesOf("Carousel", module)
   .addDecorator(appDecorator)
   .add("default", () => ({
-    components: { CarouselComponent, Slide },
+    components: { Carousel, Slide },
     template: `
-      <carousel-component>
-        ${slideTemplate}
-        ${slideTemplate}
-        ${slideTemplate}
-        ${slideTemplate}
-        ${slideTemplate}
-        ${slideTemplate}
-      </carousel-component>
+      <carousel>
+        ${eventSlide}
+        ${eventSlide}
+        ${eventSlide}
+        ${eventSlide}
+        ${eventSlide}
+        ${eventSlide}
+      </carousel>
     `
   }))
-  .add("Extended Slide", () => ({
-    components: { CarouselComponent, slide: ExtendedSlide },
+  .add("Dot Navigation", () => ({
+    components: { Carousel, Slide },
     template: `
-      <carousel-component>
-        <slide>Test</slide>
-        <slide>Test</slide>
-        <slide>Test</slide>
-        <slide>Test</slide>
-        <slide>Test</slide>
-      </carousel-component>
+      <carousel :dotNav="true">
+        ${eventSlide}
+        ${eventSlide}
+        ${eventSlide}
+        ${eventSlide}
+      </carousel>
     `
   }))
-  .add("Image Slide", () => ({
-    components: { CarouselComponent, slide: ImageSlide },
+  .add("Bar Navigation", () => ({
+    components: { Carousel, Slide },
     template: `
-      <carousel-component>
-        <slide src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg" />
-        <slide src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg" />
-        <slide src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg" />
-        <slide src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg" />
-        <slide src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg" />
-      </carousel-component>
+      <carousel :barNav="true">
+        ${imageSlide}
+        ${imageSlide}
+        ${imageSlide}
+        ${imageSlide}
+      </carousel>
+    `
+  }))
+  .add("Side Navigation", () => ({
+    components: { Carousel, Slide },
+    template: `
+      <carousel :sideNav="true">
+        ${eventSlide}
+        ${eventSlide}
+        ${eventSlide}
+        ${eventSlide}
+      </carousel>
     `
   }));
