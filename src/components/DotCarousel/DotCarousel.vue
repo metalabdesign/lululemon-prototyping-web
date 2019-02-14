@@ -8,6 +8,7 @@
     :scrollPerPage="true"
     :paginationEnabled="true"
     paginationPosition="top"
+    :navigateTo="navigateTo"
   >
     <slot />
   </carousel>
@@ -19,9 +20,7 @@ import { Carousel } from "vue-carousel";
 export default {
   name: "DotCarousel",
   components: { Carousel },
-  data() {
-    return {};
-  }
+  props: ["navigateTo"]
 };
 </script>
 

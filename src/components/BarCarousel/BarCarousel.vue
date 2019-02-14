@@ -9,6 +9,7 @@
     paginationPosition="bottom-overlay"
     paginationColor="rgba(255, 255, 255, 0.6)"
     paginationActiveColor="rgba(255, 255, 255, 1)"
+    :navigateTo="navigateTo"
   >
     <slot />
   </carousel>
@@ -20,9 +21,7 @@ import { Carousel } from "vue-carousel";
 export default {
   name: "BarCarousel",
   components: { Carousel },
-  data() {
-    return {};
-  }
+  props: ["navigateTo"]
 };
 </script>
 

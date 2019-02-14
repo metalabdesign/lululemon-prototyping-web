@@ -3,6 +3,7 @@ import { VApp, VContent } from "vuetify/lib"; // <-- add the import
 import { Slide } from "vue-carousel";
 
 import Carousel from "./Carousel.vue";
+import ArrowNav from "../ArrowNav/ArrowNav.vue";
 
 // Decorator for adding Storybook styles around the component to be rendered
 const appDecorator = () => {
@@ -43,13 +44,22 @@ storiesOf("Carousel", module)
     `
   }))
   .add("External Navigation", () => ({
-    components: { Carousel, Slide },
+    components: { Carousel, Slide, ArrowNav },
+    data: () => ({
+      index: 0
+    }),
     template: `
-      <carousel>
-        ${imageSlide}
-        ${imageSlide}
-        ${imageSlide}
-        ${imageSlide}
-      </carousel>
+      <div>
+        <arrow-nav v-on:left="index--" v-on:right="index++" />
+        <div>Index: {{ index }}</div>
+        <carousel :navigateTo="index">
+          ${imageSlide}
+          ${imageSlide}
+          ${imageSlide}
+          ${imageSlide}
+          ${imageSlide}
+          ${imageSlide}
+        </carousel>
+      </div>
     `
   }));

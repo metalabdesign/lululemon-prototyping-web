@@ -5,6 +5,7 @@
     :centerMode="false"
     :navigationEnabled="false"
     :paginationEnabled="false"
+    :navigateTo="navigateTo"
   >
     <slot />
   </vue-carousel>
@@ -16,9 +17,7 @@ import { Carousel } from "vue-carousel";
 export default {
   name: "Carousel",
   components: { "vue-carousel": Carousel },
-  data() {
-    return {};
-  }
+  props: ["navigateTo"]
 };
 </script>
 
