@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
+import Ambassador from "./views/Ambassador";
 
 Vue.use(Router);
 
@@ -10,8 +11,7 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "home",
-      component: Home
+      redirect: "/ambassadors",
     },
     {
       path: "/about",
@@ -21,6 +21,18 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/About.vue")
+    },
+    {
+      path: "/ambassadors",
+      name: "ambassadors",
+      component: () =>
+        import("./views/AmbassadorsHub")
+    },
+    {
+      path: "/ambassador/:id",
+      name: "ambassador",
+      component: Ambassador,
+
     }
   ]
 });
