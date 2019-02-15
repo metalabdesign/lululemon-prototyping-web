@@ -10,6 +10,8 @@
     paginationPosition="top"
     paginationActiveColor="rgba(0,0,0,1)"
     paginationColor="rgba(0,0,0,0.2)"
+    :paginationSize="8"
+    :paginationPadding="3"
     :navigateTo="navigateTo"
   >
     <slot />
@@ -42,10 +44,10 @@ export default {
 
       &:first-child:not(.VueCarousel-dot--active),
       &:last-child:not(.VueCarousel-dot--active) {
-        width: 6px !important;
-        height: 6px !important;
-        padding-left: 12px !important;
-        padding-right: 12px !important;
+        width: 4px !important;
+        height: 4px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
       }
     }
   }
