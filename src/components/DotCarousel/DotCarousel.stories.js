@@ -49,7 +49,6 @@ storiesOf("Dot Carousel", module)
         ${eventSlide}
         ${eventSlide}
         ${eventSlide}
-        ${eventSlide}
       </dot-carousel>
     `
   }));
