@@ -43,7 +43,31 @@ storiesOf("Dot Carousel", module)
   .add("default", () => ({
     components: { DotCarousel, Slide },
     template: `
-      <dot-carousel>
+      <dot-carousel title="Get Involved Nearby">
+        ${eventSlide}
+        ${eventSlide}
+        ${eventSlide}
+        ${eventSlide}
+        ${eventSlide}
+      </dot-carousel>
+    `
+  }))
+  .add("Long Title", () => ({
+    components: { DotCarousel, Slide },
+    template: `
+      <dot-carousel title="Find Hot Yogis Right Now Near {userGeoArea}">
+        ${eventSlide}
+        ${eventSlide}
+        ${eventSlide}
+        ${eventSlide}
+        ${eventSlide}
+      </dot-carousel>
+    `
+  }))
+  .add("Default Nav", () => ({
+    components: { DotCarousel, Slide },
+    template: `
+      <dot-carousel title="Get Involved Nearby" :showDefaultPagination="true">
         ${eventSlide}
         ${eventSlide}
         ${eventSlide}
