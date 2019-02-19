@@ -63,5 +63,8 @@ export default {
   .VueCarousel-pagination {
     text-align: right;
   }
+  .VueCarousel-slide {
+    width: 200px;
+  }
 }
 </style>

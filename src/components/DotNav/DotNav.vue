@@ -8,11 +8,9 @@
       {{ title }}
     </div>
     <div class="dots">
-      <div
-        class="dot"
-        v-for="(_, i) in numDots"
-        v-bind:class="{ active: i == index }"
-      />
+      <div class="dot" v-for="(_, i) in numDots" v-bind:class="buildClasses(i)">
+        <div class="dot-img"></div>
+      </div>
     </div>
   </div>
 </template>
@@ -25,6 +23,11 @@ export default {
     numDots: Number,
     index: Number,
     titleTruncate: Boolean
+  },
+  methods: {
+    buildClasses: function(i) {
+      return `distance-${Math.abs(this.index - i)}`;
+    }
   }
 };
 </script>
@@ -46,32 +49,30 @@ export default {
   }
 
   .dot {
-    display: block;
-    width: 8px;
-    height: 8px;
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 100px;
-    margin: 2px;
-    transition: background-color 0.2s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12px;
+    height: 12px;
 
-    &:first-child {
-      margin-left: 0;
-    }
-
-    &:last-child {
-      margin-right: 0;
-    }
-
-    &:first-child:not(.active),
-    &:last-child:not(.active) {
+    .dot-img {
+      display: block;
       width: 4px;
       height: 4px;
-      margin-left: 3px;
-      margin-right: 3px;
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 100px;
+      transition: all 0.2s ease-out;
     }
 
-    &.active {
+    &.distance-0 .dot-img {
       background-color: rgba(0, 0, 0, 1);
+      width: 8px;
+      height: 8px;
+    }
+
+    &.distance-1 .dot-img {
+      width: 6px;
+      height: 6px;
     }
   }
 }
