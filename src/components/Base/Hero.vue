@@ -27,6 +27,7 @@ export default {
         case "middle":
           return "justify-center";
         case "bottom":
+        default:
           return "justify-end";
       }
     },
