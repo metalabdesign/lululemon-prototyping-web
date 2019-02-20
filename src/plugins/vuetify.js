@@ -4,13 +4,14 @@ import Vuetify, {
   VLayout,
   VContainer,
   VImg,
+  VExpansionPanel,
   VApp,
   VContent
 } from "vuetify/lib";
 import '../custom-vuetify.styl';
 
 Vue.use(Vuetify, {
-  components: { VFlex, VLayout, VContainer, VImg, VApp, VContent },
+  components: { VFlex, VLayout, VContainer, VImg, VApp, VContent, VExpansionPanel },
   theme: {
     primary: "#ee44aa",
     secondary: "#424242",
