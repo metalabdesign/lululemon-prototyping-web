@@ -1,4 +1,6 @@
 import yoga from "../assets/yoga@2x.png"
+import { dashedToCamelObject } from "../utils/dashedToCamel";
+const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 const ambassadors = [
   {
@@ -8,7 +10,7 @@ const ambassadors = [
     "gender": "male",
     "ambassador-type": "store",
     "short-bio": "lululemon stories",
-    "long-bio": "lululemon stories",
+    "long-bio": "Nothing feels better than the feeling of being able to tackle the activities I love with the people I love- without hesitation. That and the endorphins! Aaron's passion for movement bursts through the seams of everything he does. Enter his latest endeavor: MOVR, an app aimed at bringing personal training into your hands. Moments with Aaron always include a little sweat and a lot of laughs.",
     "why-we-love": "this is why we love the ambassador",
     "reasons-we-sweat": null,
     "goals": null,
@@ -24,7 +26,11 @@ const ambassadors = [
     "avatar-img-path": "v1471974966/hub/bnw9lsdwlvbtmnqh65hk.jpg",
     "email": "publishercreator5@lululemon.com",
     "cover-image": yoga,
-    
+    "location-label": "Vancouver, BC, Canada",
+    "store-label": "Rush Street",
+    "store-id": 21,
+    "nested-object": { test: 123 },
+    "disciplines": ["Barre", "Yoga"],
   },
   {
     id: 2,
@@ -49,13 +55,20 @@ const ambassadors = [
     "avatar-img-path": "v1471974966/hub/hx3hvpzwuwa2iuirhudk.jpg",
     "email": "publishercreator1@lululemon.com",
     "cover-image": yoga,
+    "location-label": "Vancouver, BC, Canada",
+    "store-label": "Rush Street",
+    "store-id": 21,
+    "disciplines": ["Running"],
   }
 ]
 
 export const fetch = (id) => {
-  return Promise.resolve(ambassadors[id - 1]);
+
+  return wait(200).then(() => {
+    return dashedToCamelObject(ambassadors[id - 1])
+  });
 }
 
 export const fetchAll = () => {
- return Promise.resolve(ambassadors); 
+ return wait(200).then(() => ambassadors.map((obj) => dashedToCamelObject(obj))); 
 }
