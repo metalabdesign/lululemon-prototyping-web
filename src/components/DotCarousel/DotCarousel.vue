@@ -6,14 +6,15 @@
       :perPageCustom="[[320, 1], [480, 2], [640, 4]]"
       :mouse-drag="true"
       :loop="true"
-      :centerMode="false"
-      :scrollPerPage="true"
+      :centerMode="true"
+      :scrollPerPage="false"
       :paginationEnabled="showDefaultPagination"
       paginationPosition="top"
       paginationActiveColor="rgba(0,0,0,1)"
       paginationColor="rgba(0,0,0,0.2)"
       :paginationSize="8"
       :paginationPadding="3"
+      :spacePadding="40"
       :navigateTo="navigateTo"
       @pageChange="updateIndex"
     >
@@ -65,6 +66,7 @@ export default {
   }
   .VueCarousel-slide {
     width: 200px;
+    padding: 20px;
   }
 }
 </style>

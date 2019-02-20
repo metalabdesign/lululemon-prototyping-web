@@ -21,7 +21,7 @@ const appDecorator = () => {
 };
 
 const eventSlide = `
-  <slide style="padding-right: 20px;">
+  <slide>
     <v-img class="CarouselImage" src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg" cover height="300" style="filter: grayscale(100);">
       <v-layout column fill-height>
         <v-spacer></v-spacer>
