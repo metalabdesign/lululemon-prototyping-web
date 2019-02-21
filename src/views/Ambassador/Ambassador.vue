@@ -10,7 +10,7 @@
     ></AmbassadorHero>
     <v-container>
       <h2 class="display-3 mb-1">Getting to Know <span class="text-capitalize">{{ pronoun }}</span></h2>
-      <div class="qualifications-hightlight mb-1">{{ profile.accolades[0] }}</div>
+      <div v-if="profile.accolades && profile.accolades.length" class="qualifications-hightlight mb-1">{{ profile.accolades[0] }}</div>
       <div class="mb-3">
         <truncate clamp="... more" :length="180" less="less" :text="profile.longBio"/>
       </div>

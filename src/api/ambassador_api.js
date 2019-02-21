@@ -4,7 +4,7 @@ const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 const ambassadors = [
   {
-    id: 2,
+    id: 1,
     "first-name": "Matt",
     "last-name": "Bielby",
     "gender": "male",
@@ -62,12 +62,13 @@ const ambassadors = [
   }
 ]
 
-export const fetch = (id) => {
-
+export const fetch = id => {
   return wait(200).then(() => {
-    return dashedToCamelObject(ambassadors[id - 1])
+    const ambassador = ambassadors.find(a => a.id == id);
+    return dashedToCamelObject(ambassador);
   });
-}
+};
+
 
 export const fetchAll = () => {
  return wait(200).then(() => ambassadors.map((obj) => dashedToCamelObject(obj))); 

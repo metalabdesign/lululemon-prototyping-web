@@ -1,19 +1,19 @@
 <template>
-  <div>This is the ambassadors hub. Try viewing an ambassador <a href="/ambassador/1">here</a></div>
+  <div>
+    <p>This is the ambassadors hub. Try viewing an ambassador:</p>
+    <p><router-link to="/ambassador/1">Ambassador 1</router-link></p>
+    <p><router-link to="/ambassador/2">Ambassador 2</router-link></p>
+  </div>
 </template>
 
 <script>
 export default {
-
-  name: 'AmbassadorsHub',
+  name: "AmbassadorsHub",
 
   data() {
-    return {
-
-    };
-  },
+    return {};
+  }
 };
 </script>
 
-<style lang="css" scoped>
-</style>
+<style lang="css" scoped></style>
