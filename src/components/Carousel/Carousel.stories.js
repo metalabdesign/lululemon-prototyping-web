@@ -1,5 +1,5 @@
 import { storiesOf } from "@storybook/vue";
-import { VApp, VContent } from "vuetify/lib"; // <-- add the import
+import { VApp, VContent, VImg } from "vuetify/lib"; // <-- add the import
 import { Slide } from "vue-carousel";
 
 import Carousel from "./Carousel.vue";
@@ -31,7 +31,7 @@ const imageSlide = `
 storiesOf("Carousel", module)
   .addDecorator(appDecorator)
   .add("default", () => ({
-    components: { Carousel, Slide },
+    components: { Carousel, Slide, VImg },
     template: `
       <carousel>
         ${imageSlide}
@@ -44,7 +44,7 @@ storiesOf("Carousel", module)
     `
   }))
   .add("External Navigation", () => ({
-    components: { Carousel, Slide, ArrowNav },
+    components: { Carousel, Slide, ArrowNav, VImg },
     data: () => ({
       index: 0
     }),

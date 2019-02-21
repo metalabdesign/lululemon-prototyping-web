@@ -9,7 +9,7 @@
     "build-storybook": "build-storybook",
     "storybook": "start-storybook -p 6006",
     "test:e2e": "vue-cli-service test:e2e --headless",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit -u"
   },
   "dependencies": {
     "@storybook/addon-storyshots": "^4.1.11",

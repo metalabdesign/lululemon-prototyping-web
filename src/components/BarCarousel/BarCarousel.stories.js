@@ -1,5 +1,5 @@
 import { storiesOf } from "@storybook/vue";
-import { VApp, VContent } from "vuetify/lib"; // <-- add the import
+import { VApp, VContent, VImg } from "vuetify/lib"; // <-- add the import
 import { Slide } from "vue-carousel";
 
 import BarCarousel from "./BarCarousel.vue";
@@ -30,7 +30,7 @@ const imageSlide = `
 storiesOf("Bar Carousel", module)
   .addDecorator(appDecorator)
   .add("default", () => ({
-    components: { BarCarousel, Slide },
+    components: { BarCarousel, Slide, VImg },
     template: `
       <bar-carousel>
         ${imageSlide}

@@ -39,23 +39,37 @@ exports[`Storyshots Arrow Nav default 1`] = `
                   >
                     <div>
                       <div>
-                        <v-btn
-                          flat=""
-                          small=""
+                        <button
+                          class="v-btn v-btn--flat v-btn--small theme--light"
+                          type="button"
                         >
-                          <v-icon>
-                            keyboard_arrow_left
-                          </v-icon>
-                        </v-btn>
+                          <div
+                            class="v-btn__content"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon material-icons theme--light"
+                            >
+                              keyboard_arrow_left
+                            </i>
+                          </div>
+                        </button>
                          
-                        <v-btn
-                          flat=""
-                          small=""
+                        <button
+                          class="v-btn v-btn--flat v-btn--small theme--light"
+                          type="button"
                         >
-                          <v-icon>
-                            keyboard_arrow_right
-                          </v-icon>
-                        </v-btn>
+                          <div
+                            class="v-btn__content"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon material-icons theme--light"
+                            >
+                              keyboard_arrow_right
+                            </i>
+                          </div>
+                        </button>
                       </div>
                        
                       <div
@@ -136,12 +150,19 @@ exports[`Storyshots Bar Carousel default 1`] = `
                             style="padding-right: 20px;"
                             tabindex="-1"
                           >
-                            <v-img
-                              class="CarouselImage"
+                            <div
+                              class="v-responsive v-image CarouselImage"
                               cover=""
-                              height="300"
-                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
-                            />
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
                           </div>
                            
                           <div
@@ -151,12 +172,19 @@ exports[`Storyshots Bar Carousel default 1`] = `
                             style="padding-right: 20px;"
                             tabindex="-1"
                           >
-                            <v-img
-                              class="CarouselImage"
+                            <div
+                              class="v-responsive v-image CarouselImage"
                               cover=""
-                              height="300"
-                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
-                            />
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
                           </div>
                            
                           <div
@@ -166,12 +194,19 @@ exports[`Storyshots Bar Carousel default 1`] = `
                             style="padding-right: 20px;"
                             tabindex="-1"
                           >
-                            <v-img
-                              class="CarouselImage"
+                            <div
+                              class="v-responsive v-image CarouselImage"
                               cover=""
-                              height="300"
-                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
-                            />
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
                           </div>
                            
                           <div
@@ -181,12 +216,19 @@ exports[`Storyshots Bar Carousel default 1`] = `
                             style="padding-right: 20px;"
                             tabindex="-1"
                           >
-                            <v-img
-                              class="CarouselImage"
+                            <div
+                              class="v-responsive v-image CarouselImage"
                               cover=""
-                              height="300"
-                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
-                            />
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -257,23 +299,37 @@ exports[`Storyshots Carousel External Navigation 1`] = `
                   >
                     <div>
                       <div>
-                        <v-btn
-                          flat=""
-                          small=""
+                        <button
+                          class="v-btn v-btn--flat v-btn--small theme--light"
+                          type="button"
                         >
-                          <v-icon>
-                            keyboard_arrow_left
-                          </v-icon>
-                        </v-btn>
+                          <div
+                            class="v-btn__content"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon material-icons theme--light"
+                            >
+                              keyboard_arrow_left
+                            </i>
+                          </div>
+                        </button>
                          
-                        <v-btn
-                          flat=""
-                          small=""
+                        <button
+                          class="v-btn v-btn--flat v-btn--small theme--light"
+                          type="button"
                         >
-                          <v-icon>
-                            keyboard_arrow_right
-                          </v-icon>
-                        </v-btn>
+                          <div
+                            class="v-btn__content"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon material-icons theme--light"
+                            >
+                              keyboard_arrow_right
+                            </i>
+                          </div>
+                        </button>
                       </div>
                        
                       <div>
@@ -297,12 +353,19 @@ exports[`Storyshots Carousel External Navigation 1`] = `
                               style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
-                              />
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                />
+                              </div>
                             </div>
                              
                             <div
@@ -312,12 +375,19 @@ exports[`Storyshots Carousel External Navigation 1`] = `
                               style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
-                              />
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                />
+                              </div>
                             </div>
                              
                             <div
@@ -327,12 +397,19 @@ exports[`Storyshots Carousel External Navigation 1`] = `
                               style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
-                              />
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                />
+                              </div>
                             </div>
                              
                             <div
@@ -342,12 +419,19 @@ exports[`Storyshots Carousel External Navigation 1`] = `
                               style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
-                              />
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                />
+                              </div>
                             </div>
                              
                             <div
@@ -357,12 +441,19 @@ exports[`Storyshots Carousel External Navigation 1`] = `
                               style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
-                              />
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                />
+                              </div>
                             </div>
                              
                             <div
@@ -372,12 +463,19 @@ exports[`Storyshots Carousel External Navigation 1`] = `
                               style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
-                              />
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                />
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -453,12 +551,19 @@ exports[`Storyshots Carousel default 1`] = `
                             style="padding-right: 20px;"
                             tabindex="-1"
                           >
-                            <v-img
-                              class="CarouselImage"
+                            <div
+                              class="v-responsive v-image CarouselImage"
                               cover=""
-                              height="300"
-                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
-                            />
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
                           </div>
                            
                           <div
@@ -468,12 +573,19 @@ exports[`Storyshots Carousel default 1`] = `
                             style="padding-right: 20px;"
                             tabindex="-1"
                           >
-                            <v-img
-                              class="CarouselImage"
+                            <div
+                              class="v-responsive v-image CarouselImage"
                               cover=""
-                              height="300"
-                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
-                            />
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
                           </div>
                            
                           <div
@@ -483,12 +595,19 @@ exports[`Storyshots Carousel default 1`] = `
                             style="padding-right: 20px;"
                             tabindex="-1"
                           >
-                            <v-img
-                              class="CarouselImage"
+                            <div
+                              class="v-responsive v-image CarouselImage"
                               cover=""
-                              height="300"
-                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
-                            />
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
                           </div>
                            
                           <div
@@ -498,12 +617,19 @@ exports[`Storyshots Carousel default 1`] = `
                             style="padding-right: 20px;"
                             tabindex="-1"
                           >
-                            <v-img
-                              class="CarouselImage"
+                            <div
+                              class="v-responsive v-image CarouselImage"
                               cover=""
-                              height="300"
-                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
-                            />
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
                           </div>
                            
                           <div
@@ -513,12 +639,19 @@ exports[`Storyshots Carousel default 1`] = `
                             style="padding-right: 20px;"
                             tabindex="-1"
                           >
-                            <v-img
-                              class="CarouselImage"
+                            <div
+                              class="v-responsive v-image CarouselImage"
                               cover=""
-                              height="300"
-                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
-                            />
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
                           </div>
                            
                           <div
@@ -528,12 +661,19 @@ exports[`Storyshots Carousel default 1`] = `
                             style="padding-right: 20px;"
                             tabindex="-1"
                           >
-                            <v-img
-                              class="CarouselImage"
+                            <div
+                              class="v-responsive v-image CarouselImage"
                               cover=""
-                              height="300"
-                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
-                            />
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -653,55 +793,78 @@ exports[`Storyshots Dot Carousel Default Nav 1`] = `
                           class="VueCarousel-wrapper"
                         >
                           <div
-                            class="VueCarousel-inner"
-                            style="transform: translate(0px, 0); visibility: hidden; height: auto;"
+                            class="VueCarousel-inner VueCarousel-inner--center"
+                            style="transform: translate(0px, 0); visibility: visible; height: auto; padding-left: 40px; padding-right: 40px;"
                           >
                             <div
                               aria-hidden="true"
                               class="VueCarousel-slide"
                               role="tabpanel"
-                              style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                                style="height: 300px;"
                               >
-                                <v-layout
-                                  column=""
-                                  fill-height=""
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
                                 >
-                                  <v-spacer />
-                                   
-                                  <v-btn>
-                                    RSVP
-                                  </v-btn>
-                                </v-layout>
-                              </v-img>
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
                                
                               <h3>
                                 Get Grounded, Underground
                               </h3>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   access_time
-                                </v-icon>
+                                </i>
                                  8AM • 1H
       
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   attach_money
-                                </v-icon>
+                                </i>
                                  Free
     
                               </div>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   location_on
-                                </v-icon>
+                                </i>
                                  Pacific Centre
                               </div>
                                
@@ -714,48 +877,71 @@ exports[`Storyshots Dot Carousel Default Nav 1`] = `
                               aria-hidden="true"
                               class="VueCarousel-slide"
                               role="tabpanel"
-                              style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                                style="height: 300px;"
                               >
-                                <v-layout
-                                  column=""
-                                  fill-height=""
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
                                 >
-                                  <v-spacer />
-                                   
-                                  <v-btn>
-                                    RSVP
-                                  </v-btn>
-                                </v-layout>
-                              </v-img>
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
                                
                               <h3>
                                 Get Grounded, Underground
                               </h3>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   access_time
-                                </v-icon>
+                                </i>
                                  8AM • 1H
       
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   attach_money
-                                </v-icon>
+                                </i>
                                  Free
     
                               </div>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   location_on
-                                </v-icon>
+                                </i>
                                  Pacific Centre
                               </div>
                                
@@ -768,48 +954,71 @@ exports[`Storyshots Dot Carousel Default Nav 1`] = `
                               aria-hidden="true"
                               class="VueCarousel-slide"
                               role="tabpanel"
-                              style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                                style="height: 300px;"
                               >
-                                <v-layout
-                                  column=""
-                                  fill-height=""
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
                                 >
-                                  <v-spacer />
-                                   
-                                  <v-btn>
-                                    RSVP
-                                  </v-btn>
-                                </v-layout>
-                              </v-img>
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
                                
                               <h3>
                                 Get Grounded, Underground
                               </h3>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   access_time
-                                </v-icon>
+                                </i>
                                  8AM • 1H
       
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   attach_money
-                                </v-icon>
+                                </i>
                                  Free
     
                               </div>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   location_on
-                                </v-icon>
+                                </i>
                                  Pacific Centre
                               </div>
                                
@@ -822,48 +1031,71 @@ exports[`Storyshots Dot Carousel Default Nav 1`] = `
                               aria-hidden="true"
                               class="VueCarousel-slide"
                               role="tabpanel"
-                              style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                                style="height: 300px;"
                               >
-                                <v-layout
-                                  column=""
-                                  fill-height=""
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
                                 >
-                                  <v-spacer />
-                                   
-                                  <v-btn>
-                                    RSVP
-                                  </v-btn>
-                                </v-layout>
-                              </v-img>
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
                                
                               <h3>
                                 Get Grounded, Underground
                               </h3>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   access_time
-                                </v-icon>
+                                </i>
                                  8AM • 1H
       
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   attach_money
-                                </v-icon>
+                                </i>
                                  Free
     
                               </div>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   location_on
-                                </v-icon>
+                                </i>
                                  Pacific Centre
                               </div>
                                
@@ -876,48 +1108,71 @@ exports[`Storyshots Dot Carousel Default Nav 1`] = `
                               aria-hidden="true"
                               class="VueCarousel-slide"
                               role="tabpanel"
-                              style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                                style="height: 300px;"
                               >
-                                <v-layout
-                                  column=""
-                                  fill-height=""
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
                                 >
-                                  <v-spacer />
-                                   
-                                  <v-btn>
-                                    RSVP
-                                  </v-btn>
-                                </v-layout>
-                              </v-img>
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
                                
                               <h3>
                                 Get Grounded, Underground
                               </h3>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   access_time
-                                </v-icon>
+                                </i>
                                  8AM • 1H
       
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   attach_money
-                                </v-icon>
+                                </i>
                                  Free
     
                               </div>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   location_on
-                                </v-icon>
+                                </i>
                                  Pacific Centre
                               </div>
                                
@@ -1055,55 +1310,78 @@ exports[`Storyshots Dot Carousel Long Title 1`] = `
                           class="VueCarousel-wrapper"
                         >
                           <div
-                            class="VueCarousel-inner"
-                            style="transform: translate(0px, 0); visibility: hidden; height: auto;"
+                            class="VueCarousel-inner VueCarousel-inner--center"
+                            style="transform: translate(0px, 0); visibility: visible; height: auto; padding-left: 40px; padding-right: 40px;"
                           >
                             <div
                               aria-hidden="true"
                               class="VueCarousel-slide"
                               role="tabpanel"
-                              style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                                style="height: 300px;"
                               >
-                                <v-layout
-                                  column=""
-                                  fill-height=""
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
                                 >
-                                  <v-spacer />
-                                   
-                                  <v-btn>
-                                    RSVP
-                                  </v-btn>
-                                </v-layout>
-                              </v-img>
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
                                
                               <h3>
                                 Get Grounded, Underground
                               </h3>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   access_time
-                                </v-icon>
+                                </i>
                                  8AM • 1H
       
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   attach_money
-                                </v-icon>
+                                </i>
                                  Free
     
                               </div>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   location_on
-                                </v-icon>
+                                </i>
                                  Pacific Centre
                               </div>
                                
@@ -1116,48 +1394,71 @@ exports[`Storyshots Dot Carousel Long Title 1`] = `
                               aria-hidden="true"
                               class="VueCarousel-slide"
                               role="tabpanel"
-                              style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                                style="height: 300px;"
                               >
-                                <v-layout
-                                  column=""
-                                  fill-height=""
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
                                 >
-                                  <v-spacer />
-                                   
-                                  <v-btn>
-                                    RSVP
-                                  </v-btn>
-                                </v-layout>
-                              </v-img>
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
                                
                               <h3>
                                 Get Grounded, Underground
                               </h3>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   access_time
-                                </v-icon>
+                                </i>
                                  8AM • 1H
       
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   attach_money
-                                </v-icon>
+                                </i>
                                  Free
     
                               </div>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   location_on
-                                </v-icon>
+                                </i>
                                  Pacific Centre
                               </div>
                                
@@ -1170,48 +1471,71 @@ exports[`Storyshots Dot Carousel Long Title 1`] = `
                               aria-hidden="true"
                               class="VueCarousel-slide"
                               role="tabpanel"
-                              style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                                style="height: 300px;"
                               >
-                                <v-layout
-                                  column=""
-                                  fill-height=""
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
                                 >
-                                  <v-spacer />
-                                   
-                                  <v-btn>
-                                    RSVP
-                                  </v-btn>
-                                </v-layout>
-                              </v-img>
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
                                
                               <h3>
                                 Get Grounded, Underground
                               </h3>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   access_time
-                                </v-icon>
+                                </i>
                                  8AM • 1H
       
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   attach_money
-                                </v-icon>
+                                </i>
                                  Free
     
                               </div>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   location_on
-                                </v-icon>
+                                </i>
                                  Pacific Centre
                               </div>
                                
@@ -1224,48 +1548,71 @@ exports[`Storyshots Dot Carousel Long Title 1`] = `
                               aria-hidden="true"
                               class="VueCarousel-slide"
                               role="tabpanel"
-                              style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                                style="height: 300px;"
                               >
-                                <v-layout
-                                  column=""
-                                  fill-height=""
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
                                 >
-                                  <v-spacer />
-                                   
-                                  <v-btn>
-                                    RSVP
-                                  </v-btn>
-                                </v-layout>
-                              </v-img>
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
                                
                               <h3>
                                 Get Grounded, Underground
                               </h3>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   access_time
-                                </v-icon>
+                                </i>
                                  8AM • 1H
       
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   attach_money
-                                </v-icon>
+                                </i>
                                  Free
     
                               </div>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   location_on
-                                </v-icon>
+                                </i>
                                  Pacific Centre
                               </div>
                                
@@ -1278,48 +1625,71 @@ exports[`Storyshots Dot Carousel Long Title 1`] = `
                               aria-hidden="true"
                               class="VueCarousel-slide"
                               role="tabpanel"
-                              style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                                style="height: 300px;"
                               >
-                                <v-layout
-                                  column=""
-                                  fill-height=""
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
                                 >
-                                  <v-spacer />
-                                   
-                                  <v-btn>
-                                    RSVP
-                                  </v-btn>
-                                </v-layout>
-                              </v-img>
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
                                
                               <h3>
                                 Get Grounded, Underground
                               </h3>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   access_time
-                                </v-icon>
+                                </i>
                                  8AM • 1H
       
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   attach_money
-                                </v-icon>
+                                </i>
                                  Free
     
                               </div>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   location_on
-                                </v-icon>
+                                </i>
                                  Pacific Centre
                               </div>
                                
@@ -1446,55 +1816,78 @@ exports[`Storyshots Dot Carousel default 1`] = `
                           class="VueCarousel-wrapper"
                         >
                           <div
-                            class="VueCarousel-inner"
-                            style="transform: translate(0px, 0); visibility: hidden; height: auto;"
+                            class="VueCarousel-inner VueCarousel-inner--center"
+                            style="transform: translate(0px, 0); visibility: visible; height: auto; padding-left: 40px; padding-right: 40px;"
                           >
                             <div
                               aria-hidden="true"
                               class="VueCarousel-slide"
                               role="tabpanel"
-                              style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                                style="height: 300px;"
                               >
-                                <v-layout
-                                  column=""
-                                  fill-height=""
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
                                 >
-                                  <v-spacer />
-                                   
-                                  <v-btn>
-                                    RSVP
-                                  </v-btn>
-                                </v-layout>
-                              </v-img>
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
                                
                               <h3>
                                 Get Grounded, Underground
                               </h3>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   access_time
-                                </v-icon>
+                                </i>
                                  8AM • 1H
       
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   attach_money
-                                </v-icon>
+                                </i>
                                  Free
     
                               </div>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   location_on
-                                </v-icon>
+                                </i>
                                  Pacific Centre
                               </div>
                                
@@ -1507,48 +1900,71 @@ exports[`Storyshots Dot Carousel default 1`] = `
                               aria-hidden="true"
                               class="VueCarousel-slide"
                               role="tabpanel"
-                              style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                                style="height: 300px;"
                               >
-                                <v-layout
-                                  column=""
-                                  fill-height=""
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
                                 >
-                                  <v-spacer />
-                                   
-                                  <v-btn>
-                                    RSVP
-                                  </v-btn>
-                                </v-layout>
-                              </v-img>
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
                                
                               <h3>
                                 Get Grounded, Underground
                               </h3>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   access_time
-                                </v-icon>
+                                </i>
                                  8AM • 1H
       
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   attach_money
-                                </v-icon>
+                                </i>
                                  Free
     
                               </div>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   location_on
-                                </v-icon>
+                                </i>
                                  Pacific Centre
                               </div>
                                
@@ -1561,48 +1977,71 @@ exports[`Storyshots Dot Carousel default 1`] = `
                               aria-hidden="true"
                               class="VueCarousel-slide"
                               role="tabpanel"
-                              style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                                style="height: 300px;"
                               >
-                                <v-layout
-                                  column=""
-                                  fill-height=""
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
                                 >
-                                  <v-spacer />
-                                   
-                                  <v-btn>
-                                    RSVP
-                                  </v-btn>
-                                </v-layout>
-                              </v-img>
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
                                
                               <h3>
                                 Get Grounded, Underground
                               </h3>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   access_time
-                                </v-icon>
+                                </i>
                                  8AM • 1H
       
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   attach_money
-                                </v-icon>
+                                </i>
                                  Free
     
                               </div>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   location_on
-                                </v-icon>
+                                </i>
                                  Pacific Centre
                               </div>
                                
@@ -1615,48 +2054,71 @@ exports[`Storyshots Dot Carousel default 1`] = `
                               aria-hidden="true"
                               class="VueCarousel-slide"
                               role="tabpanel"
-                              style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                                style="height: 300px;"
                               >
-                                <v-layout
-                                  column=""
-                                  fill-height=""
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
                                 >
-                                  <v-spacer />
-                                   
-                                  <v-btn>
-                                    RSVP
-                                  </v-btn>
-                                </v-layout>
-                              </v-img>
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
                                
                               <h3>
                                 Get Grounded, Underground
                               </h3>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   access_time
-                                </v-icon>
+                                </i>
                                  8AM • 1H
       
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   attach_money
-                                </v-icon>
+                                </i>
                                  Free
     
                               </div>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   location_on
-                                </v-icon>
+                                </i>
                                  Pacific Centre
                               </div>
                                
@@ -1669,48 +2131,71 @@ exports[`Storyshots Dot Carousel default 1`] = `
                               aria-hidden="true"
                               class="VueCarousel-slide"
                               role="tabpanel"
-                              style="padding-right: 20px;"
                               tabindex="-1"
                             >
-                              <v-img
-                                class="CarouselImage"
+                              <div
+                                class="v-responsive v-image CarouselImage"
                                 cover=""
-                                height="300"
-                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                                style="height: 300px;"
                               >
-                                <v-layout
-                                  column=""
-                                  fill-height=""
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
                                 >
-                                  <v-spacer />
-                                   
-                                  <v-btn>
-                                    RSVP
-                                  </v-btn>
-                                </v-layout>
-                              </v-img>
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
                                
                               <h3>
                                 Get Grounded, Underground
                               </h3>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   access_time
-                                </v-icon>
+                                </i>
                                  8AM • 1H
       
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   attach_money
-                                </v-icon>
+                                </i>
                                  Free
     
                               </div>
                                
                               <div>
-                                <v-icon>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
                                   location_on
-                                </v-icon>
+                                </i>
                                  Pacific Centre
                               </div>
                                
@@ -1836,13 +2321,27 @@ exports[`Storyshots Dot Nav 2-Line Title 1`] = `
                         </div>
                          
                         <div>
-                          <v-btn>
-                            --
-                          </v-btn>
+                          <button
+                            class="v-btn theme--light"
+                            type="button"
+                          >
+                            <div
+                              class="v-btn__content"
+                            >
+                              --
+                            </div>
+                          </button>
                            
-                          <v-btn>
-                            ++
-                          </v-btn>
+                          <button
+                            class="v-btn theme--light"
+                            type="button"
+                          >
+                            <div
+                              class="v-btn__content"
+                            >
+                              ++
+                            </div>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -1956,13 +2455,27 @@ exports[`Storyshots Dot Nav Overflow Title 1`] = `
                         </div>
                          
                         <div>
-                          <v-btn>
-                            --
-                          </v-btn>
+                          <button
+                            class="v-btn theme--light"
+                            type="button"
+                          >
+                            <div
+                              class="v-btn__content"
+                            >
+                              --
+                            </div>
+                          </button>
                            
-                          <v-btn>
-                            ++
-                          </v-btn>
+                          <button
+                            class="v-btn theme--light"
+                            type="button"
+                          >
+                            <div
+                              class="v-btn__content"
+                            >
+                              ++
+                            </div>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -2076,13 +2589,27 @@ exports[`Storyshots Dot Nav default 1`] = `
                         </div>
                          
                         <div>
-                          <v-btn>
-                            --
-                          </v-btn>
+                          <button
+                            class="v-btn theme--light"
+                            type="button"
+                          >
+                            <div
+                              class="v-btn__content"
+                            >
+                              --
+                            </div>
+                          </button>
                            
-                          <v-btn>
-                            ++
-                          </v-btn>
+                          <button
+                            class="v-btn theme--light"
+                            type="button"
+                          >
+                            <div
+                              class="v-btn__content"
+                            >
+                              ++
+                            </div>
+                          </button>
                         </div>
                       </div>
                     </div>
