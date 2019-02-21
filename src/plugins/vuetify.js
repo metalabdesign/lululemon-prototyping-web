@@ -4,13 +4,14 @@ import Vuetify, {
   VLayout,
   VContainer,
   VImg,
+  VExpansionPanel,
   VApp,
   VContent
 } from "vuetify/lib";
-import "vuetify/src/stylus/app.styl";
+import '../custom-vuetify.styl';
 
 Vue.use(Vuetify, {
-  components: { VFlex, VLayout, VContainer, VImg, VApp, VContent },
+  components: { VFlex, VLayout, VContainer, VImg, VApp, VContent, VExpansionPanel },
   theme: {
     primary: "#ee44aa",
     secondary: "#424242",
@@ -18,7 +19,7 @@ Vue.use(Vuetify, {
     error: "#FF5252",
     info: "#2196F3",
     success: "#4CAF50",
-    warning: "#FFC107"
+    warning: "#FFC107",
   },
   customProperties: true,
   iconfont: "md"
