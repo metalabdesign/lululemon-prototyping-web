@@ -1,5 +1,5 @@
 import { storiesOf } from "@storybook/vue";
-import { VApp, VContent } from "vuetify/lib";
+import { VApp, VContent, VBtn } from "vuetify/lib";
 
 import DotNav from "./DotNav.vue";
 
@@ -22,7 +22,7 @@ const appDecorator = () => {
 storiesOf("Dot Nav", module)
   .addDecorator(appDecorator)
   .add("default", () => ({
-    components: { DotNav },
+    components: { DotNav, VBtn },
     template: `
       <div>
         <dot-nav title="Get Involved Nearby" :numDots="5" :index="index" />
@@ -41,7 +41,7 @@ storiesOf("Dot Nav", module)
     })
   }))
   .add("2-Line Title", () => ({
-    components: { DotNav },
+    components: { DotNav, VBtn },
     template: `
       <div>
         <dot-nav title="This Is A Super Looooooooooong Title" :numDots="5" :index="index" />
@@ -60,7 +60,7 @@ storiesOf("Dot Nav", module)
     })
   }))
   .add("Overflow Title", () => ({
-    components: { DotNav },
+    components: { DotNav, VBtn },
     template: `
       <div>
         <dot-nav title="This Is A Super Looooooooooong Title" :titleTruncate="true" :numDots="5" :index="index" />

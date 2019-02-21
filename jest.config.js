@@ -1,4 +1,5 @@
 module.exports = {
+  //cache: false, // Tried this, takes longer, still errors
   moduleFileExtensions: ["js", "jsx", "json", "vue"],
   transform: {
     "^.+\\.vue$": "vue-jest",

@@ -10,8 +10,11 @@
 </template>
 
 <script>
+import { VBtn, VIcon } from "vuetify/lib";
+
 export default {
-  name: "ArrowNav"
+  name: "ArrowNav",
+  components: { VBtn, VIcon }
 };
 </script>
 

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots LoveButton default 1`] = `
+exports[`Storyshots Arrow Nav default 1`] = `
 <div
   class="application theme--light"
   data-app="true"
@@ -10,7 +10,7 @@ exports[`Storyshots LoveButton default 1`] = `
     class="application--wrap"
   >
     <div
-      style="background-color: rgb(134, 212, 226); padding: 20px; width: 100%; height: 100%;"
+      style="padding: 20px; width: 100%; height: 100%;"
     >
       <main
         class="v-content"
@@ -28,7 +28,2105 @@ exports[`Storyshots LoveButton default 1`] = `
               class="application--wrap"
             >
               <div
-                style="background-color: rgb(134, 212, 226); padding: 20px; width: 100%; height: 100%;"
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div>
+                      <div>
+                        <v-btn
+                          flat=""
+                          small=""
+                        >
+                          <v-icon>
+                            keyboard_arrow_left
+                          </v-icon>
+                        </v-btn>
+                         
+                        <v-btn
+                          flat=""
+                          small=""
+                        >
+                          <v-icon>
+                            keyboard_arrow_right
+                          </v-icon>
+                        </v-btn>
+                      </div>
+                       
+                      <div
+                        style="margin-top: 60px;"
+                      >
+                        <div>
+                          Left clicks: 0
+                        </div>
+                         
+                        <div>
+                          Right clicks: 0
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Bar Carousel default 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <section
+                      class="VueCarousel bar-nav"
+                    >
+                      <div
+                        class="VueCarousel-wrapper"
+                      >
+                        <div
+                          class="VueCarousel-inner"
+                          style="transform: translate(0px, 0); visibility: hidden; height: auto;"
+                        >
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <v-img
+                              class="CarouselImage"
+                              cover=""
+                              height="300"
+                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                            />
+                          </div>
+                           
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <v-img
+                              class="CarouselImage"
+                              cover=""
+                              height="300"
+                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                            />
+                          </div>
+                           
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <v-img
+                              class="CarouselImage"
+                              cover=""
+                              height="300"
+                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                            />
+                          </div>
+                           
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <v-img
+                              class="CarouselImage"
+                              cover=""
+                              height="300"
+                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                       
+                      <!---->
+                       
+                      <div
+                        class="VueCarousel-pagination VueCarousel-pagination--bottom-overlay"
+                        data-v-438fd353=""
+                        style="display: none;"
+                      >
+                        <div
+                          class="VueCarousel-dot-container"
+                          data-v-438fd353=""
+                          role="tablist"
+                          style="margin-top: 20px;"
+                        />
+                      </div>
+                    </section>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Carousel External Navigation 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div>
+                      <div>
+                        <v-btn
+                          flat=""
+                          small=""
+                        >
+                          <v-icon>
+                            keyboard_arrow_left
+                          </v-icon>
+                        </v-btn>
+                         
+                        <v-btn
+                          flat=""
+                          small=""
+                        >
+                          <v-icon>
+                            keyboard_arrow_right
+                          </v-icon>
+                        </v-btn>
+                      </div>
+                       
+                      <div>
+                        Index: 0
+                      </div>
+                       
+                      <section
+                        class="VueCarousel"
+                      >
+                        <div
+                          class="VueCarousel-wrapper"
+                        >
+                          <div
+                            class="VueCarousel-inner"
+                            style="transform: translate(0px, 0); visibility: hidden; height: auto;"
+                          >
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              />
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              />
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              />
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              />
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              />
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                         
+                        <!---->
+                         
+                        <!---->
+                      </section>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Carousel default 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <section
+                      class="VueCarousel"
+                    >
+                      <div
+                        class="VueCarousel-wrapper"
+                      >
+                        <div
+                          class="VueCarousel-inner"
+                          style="transform: translate(0px, 0); visibility: hidden; height: auto;"
+                        >
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <v-img
+                              class="CarouselImage"
+                              cover=""
+                              height="300"
+                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                            />
+                          </div>
+                           
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <v-img
+                              class="CarouselImage"
+                              cover=""
+                              height="300"
+                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                            />
+                          </div>
+                           
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <v-img
+                              class="CarouselImage"
+                              cover=""
+                              height="300"
+                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                            />
+                          </div>
+                           
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <v-img
+                              class="CarouselImage"
+                              cover=""
+                              height="300"
+                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                            />
+                          </div>
+                           
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <v-img
+                              class="CarouselImage"
+                              cover=""
+                              height="300"
+                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                            />
+                          </div>
+                           
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <v-img
+                              class="CarouselImage"
+                              cover=""
+                              height="300"
+                              src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </section>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Dot Carousel Default Nav 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div
+                      class="DotCarousel"
+                    >
+                      <div
+                        class="DotNav"
+                      >
+                        <div
+                          class="title"
+                        >
+                          
+    Get Involved Nearby
+  
+                        </div>
+                         
+                        <div
+                          class="dots"
+                        >
+                          <div
+                            class="dot distance-0"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-1"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-2"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-3"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-4"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                       
+                      <section
+                        class="VueCarousel dot-carousel VueCarousel--reverse"
+                      >
+                        <div
+                          class="VueCarousel-wrapper"
+                        >
+                          <div
+                            class="VueCarousel-inner"
+                            style="transform: translate(0px, 0); visibility: hidden; height: auto;"
+                          >
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              >
+                                <v-layout
+                                  column=""
+                                  fill-height=""
+                                >
+                                  <v-spacer />
+                                   
+                                  <v-btn>
+                                    RSVP
+                                  </v-btn>
+                                </v-layout>
+                              </v-img>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <v-icon>
+                                  access_time
+                                </v-icon>
+                                 8AM • 1H
+      
+                                <v-icon>
+                                  attach_money
+                                </v-icon>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <v-icon>
+                                  location_on
+                                </v-icon>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              >
+                                <v-layout
+                                  column=""
+                                  fill-height=""
+                                >
+                                  <v-spacer />
+                                   
+                                  <v-btn>
+                                    RSVP
+                                  </v-btn>
+                                </v-layout>
+                              </v-img>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <v-icon>
+                                  access_time
+                                </v-icon>
+                                 8AM • 1H
+      
+                                <v-icon>
+                                  attach_money
+                                </v-icon>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <v-icon>
+                                  location_on
+                                </v-icon>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              >
+                                <v-layout
+                                  column=""
+                                  fill-height=""
+                                >
+                                  <v-spacer />
+                                   
+                                  <v-btn>
+                                    RSVP
+                                  </v-btn>
+                                </v-layout>
+                              </v-img>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <v-icon>
+                                  access_time
+                                </v-icon>
+                                 8AM • 1H
+      
+                                <v-icon>
+                                  attach_money
+                                </v-icon>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <v-icon>
+                                  location_on
+                                </v-icon>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              >
+                                <v-layout
+                                  column=""
+                                  fill-height=""
+                                >
+                                  <v-spacer />
+                                   
+                                  <v-btn>
+                                    RSVP
+                                  </v-btn>
+                                </v-layout>
+                              </v-img>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <v-icon>
+                                  access_time
+                                </v-icon>
+                                 8AM • 1H
+      
+                                <v-icon>
+                                  attach_money
+                                </v-icon>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <v-icon>
+                                  location_on
+                                </v-icon>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              >
+                                <v-layout
+                                  column=""
+                                  fill-height=""
+                                >
+                                  <v-spacer />
+                                   
+                                  <v-btn>
+                                    RSVP
+                                  </v-btn>
+                                </v-layout>
+                              </v-img>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <v-icon>
+                                  access_time
+                                </v-icon>
+                                 8AM • 1H
+      
+                                <v-icon>
+                                  attach_money
+                                </v-icon>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <v-icon>
+                                  location_on
+                                </v-icon>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                         
+                        <!---->
+                         
+                        <div
+                          class="VueCarousel-pagination"
+                          data-v-438fd353=""
+                          style="display: none;"
+                        >
+                          <div
+                            class="VueCarousel-dot-container"
+                            data-v-438fd353=""
+                            role="tablist"
+                            style="margin-top: 6px;"
+                          />
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Dot Carousel Long Title 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div
+                      class="DotCarousel"
+                    >
+                      <div
+                        class="DotNav"
+                      >
+                        <div
+                          class="title"
+                        >
+                          
+    Find Hot Yogis Right Now Near {userGeoArea}
+  
+                        </div>
+                         
+                        <div
+                          class="dots"
+                        >
+                          <div
+                            class="dot distance-0"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-1"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-2"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-3"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-4"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                       
+                      <section
+                        class="VueCarousel dot-carousel VueCarousel--reverse"
+                      >
+                        <div
+                          class="VueCarousel-wrapper"
+                        >
+                          <div
+                            class="VueCarousel-inner"
+                            style="transform: translate(0px, 0); visibility: hidden; height: auto;"
+                          >
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              >
+                                <v-layout
+                                  column=""
+                                  fill-height=""
+                                >
+                                  <v-spacer />
+                                   
+                                  <v-btn>
+                                    RSVP
+                                  </v-btn>
+                                </v-layout>
+                              </v-img>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <v-icon>
+                                  access_time
+                                </v-icon>
+                                 8AM • 1H
+      
+                                <v-icon>
+                                  attach_money
+                                </v-icon>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <v-icon>
+                                  location_on
+                                </v-icon>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              >
+                                <v-layout
+                                  column=""
+                                  fill-height=""
+                                >
+                                  <v-spacer />
+                                   
+                                  <v-btn>
+                                    RSVP
+                                  </v-btn>
+                                </v-layout>
+                              </v-img>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <v-icon>
+                                  access_time
+                                </v-icon>
+                                 8AM • 1H
+      
+                                <v-icon>
+                                  attach_money
+                                </v-icon>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <v-icon>
+                                  location_on
+                                </v-icon>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              >
+                                <v-layout
+                                  column=""
+                                  fill-height=""
+                                >
+                                  <v-spacer />
+                                   
+                                  <v-btn>
+                                    RSVP
+                                  </v-btn>
+                                </v-layout>
+                              </v-img>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <v-icon>
+                                  access_time
+                                </v-icon>
+                                 8AM • 1H
+      
+                                <v-icon>
+                                  attach_money
+                                </v-icon>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <v-icon>
+                                  location_on
+                                </v-icon>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              >
+                                <v-layout
+                                  column=""
+                                  fill-height=""
+                                >
+                                  <v-spacer />
+                                   
+                                  <v-btn>
+                                    RSVP
+                                  </v-btn>
+                                </v-layout>
+                              </v-img>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <v-icon>
+                                  access_time
+                                </v-icon>
+                                 8AM • 1H
+      
+                                <v-icon>
+                                  attach_money
+                                </v-icon>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <v-icon>
+                                  location_on
+                                </v-icon>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              >
+                                <v-layout
+                                  column=""
+                                  fill-height=""
+                                >
+                                  <v-spacer />
+                                   
+                                  <v-btn>
+                                    RSVP
+                                  </v-btn>
+                                </v-layout>
+                              </v-img>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <v-icon>
+                                  access_time
+                                </v-icon>
+                                 8AM • 1H
+      
+                                <v-icon>
+                                  attach_money
+                                </v-icon>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <v-icon>
+                                  location_on
+                                </v-icon>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                         
+                        <!---->
+                         
+                        <!---->
+                      </section>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Dot Carousel default 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div
+                      class="DotCarousel"
+                    >
+                      <div
+                        class="DotNav"
+                      >
+                        <div
+                          class="title"
+                        >
+                          
+    Get Involved Nearby
+  
+                        </div>
+                         
+                        <div
+                          class="dots"
+                        >
+                          <div
+                            class="dot distance-0"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-1"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-2"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-3"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-4"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                       
+                      <section
+                        class="VueCarousel dot-carousel VueCarousel--reverse"
+                      >
+                        <div
+                          class="VueCarousel-wrapper"
+                        >
+                          <div
+                            class="VueCarousel-inner"
+                            style="transform: translate(0px, 0); visibility: hidden; height: auto;"
+                          >
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              >
+                                <v-layout
+                                  column=""
+                                  fill-height=""
+                                >
+                                  <v-spacer />
+                                   
+                                  <v-btn>
+                                    RSVP
+                                  </v-btn>
+                                </v-layout>
+                              </v-img>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <v-icon>
+                                  access_time
+                                </v-icon>
+                                 8AM • 1H
+      
+                                <v-icon>
+                                  attach_money
+                                </v-icon>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <v-icon>
+                                  location_on
+                                </v-icon>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              >
+                                <v-layout
+                                  column=""
+                                  fill-height=""
+                                >
+                                  <v-spacer />
+                                   
+                                  <v-btn>
+                                    RSVP
+                                  </v-btn>
+                                </v-layout>
+                              </v-img>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <v-icon>
+                                  access_time
+                                </v-icon>
+                                 8AM • 1H
+      
+                                <v-icon>
+                                  attach_money
+                                </v-icon>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <v-icon>
+                                  location_on
+                                </v-icon>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              >
+                                <v-layout
+                                  column=""
+                                  fill-height=""
+                                >
+                                  <v-spacer />
+                                   
+                                  <v-btn>
+                                    RSVP
+                                  </v-btn>
+                                </v-layout>
+                              </v-img>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <v-icon>
+                                  access_time
+                                </v-icon>
+                                 8AM • 1H
+      
+                                <v-icon>
+                                  attach_money
+                                </v-icon>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <v-icon>
+                                  location_on
+                                </v-icon>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              >
+                                <v-layout
+                                  column=""
+                                  fill-height=""
+                                >
+                                  <v-spacer />
+                                   
+                                  <v-btn>
+                                    RSVP
+                                  </v-btn>
+                                </v-layout>
+                              </v-img>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <v-icon>
+                                  access_time
+                                </v-icon>
+                                 8AM • 1H
+      
+                                <v-icon>
+                                  attach_money
+                                </v-icon>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <v-icon>
+                                  location_on
+                                </v-icon>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <v-img
+                                class="CarouselImage"
+                                cover=""
+                                height="300"
+                                src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg"
+                              >
+                                <v-layout
+                                  column=""
+                                  fill-height=""
+                                >
+                                  <v-spacer />
+                                   
+                                  <v-btn>
+                                    RSVP
+                                  </v-btn>
+                                </v-layout>
+                              </v-img>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <v-icon>
+                                  access_time
+                                </v-icon>
+                                 8AM • 1H
+      
+                                <v-icon>
+                                  attach_money
+                                </v-icon>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <v-icon>
+                                  location_on
+                                </v-icon>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                         
+                        <!---->
+                         
+                        <!---->
+                      </section>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Dot Nav 2-Line Title 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div>
+                      <div
+                        class="DotNav"
+                      >
+                        <div
+                          class="title"
+                        >
+                          
+    This Is A Super Looooooooooong Title
+  
+                        </div>
+                         
+                        <div
+                          class="dots"
+                        >
+                          <div
+                            class="dot distance-0"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-1"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-2"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-3"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-4"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                       
+                      <div
+                        style="margin-top: 60px;"
+                      >
+                        <div>
+                          Index: 0
+                        </div>
+                         
+                        <div>
+                          <v-btn>
+                            --
+                          </v-btn>
+                           
+                          <v-btn>
+                            ++
+                          </v-btn>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Dot Nav Overflow Title 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div>
+                      <div
+                        class="DotNav"
+                      >
+                        <div
+                          class="title text-truncate"
+                        >
+                          
+    This Is A Super Looooooooooong Title
+  
+                        </div>
+                         
+                        <div
+                          class="dots"
+                        >
+                          <div
+                            class="dot distance-0"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-1"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-2"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-3"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-4"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                       
+                      <div
+                        style="margin-top: 60px;"
+                      >
+                        <div>
+                          Index: 0
+                        </div>
+                         
+                        <div>
+                          <v-btn>
+                            --
+                          </v-btn>
+                           
+                          <v-btn>
+                            ++
+                          </v-btn>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Dot Nav default 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div>
+                      <div
+                        class="DotNav"
+                      >
+                        <div
+                          class="title"
+                        >
+                          
+    Get Involved Nearby
+  
+                        </div>
+                         
+                        <div
+                          class="dots"
+                        >
+                          <div
+                            class="dot distance-0"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-1"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-2"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-3"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-4"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                       
+                      <div
+                        style="margin-top: 60px;"
+                      >
+                        <div>
+                          Index: 0
+                        </div>
+                         
+                        <div>
+                          <v-btn>
+                            --
+                          </v-btn>
+                           
+                          <v-btn>
+                            ++
+                          </v-btn>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots LoveButton default 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
               >
                 <main
                   class="v-content"

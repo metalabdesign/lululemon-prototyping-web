@@ -9,8 +9,17 @@
 
 <script>
 import Toolbar from "./components/Layout/Toolbar";
+import {
+  VApp,
+  VToolbar,
+  VToolbarTitle,
+  VSpacer,
+  VContent,
+  VBtn
+} from "vuetify/lib";
 
 export default {
+  components: { VApp, VToolbar, VToolbarTitle, VSpacer, VContent, VBtn },
   name: "App",
   components: { Toolbar },
   data() {

@@ -1,5 +1,14 @@
 import { storiesOf } from "@storybook/vue";
-import { VApp, VContent } from "vuetify/lib"; // <-- add the import
+import {
+  VApp,
+  VContent,
+  VImg,
+  VIcon,
+  VBtn,
+  VLayout,
+  VSpacer
+} from "vuetify/lib"; // <-- add the import
+
 import { Slide } from "vue-carousel";
 
 import DotCarousel from "./DotCarousel.vue";
@@ -41,7 +50,7 @@ const eventSlide = `
 storiesOf("Dot Carousel", module)
   .addDecorator(appDecorator)
   .add("default", () => ({
-    components: { DotCarousel, Slide },
+    components: { DotCarousel, Slide, VImg, VIcon, VBtn, VLayout, VSpacer },
     template: `
       <dot-carousel title="Get Involved Nearby">
         ${eventSlide}
@@ -53,7 +62,7 @@ storiesOf("Dot Carousel", module)
     `
   }))
   .add("Long Title", () => ({
-    components: { DotCarousel, Slide },
+    components: { DotCarousel, Slide, VImg, VIcon, VBtn, VLayout, VSpacer },
     template: `
       <dot-carousel title="Find Hot Yogis Right Now Near {userGeoArea}">
         ${eventSlide}
@@ -65,7 +74,7 @@ storiesOf("Dot Carousel", module)
     `
   }))
   .add("Default Nav", () => ({
-    components: { DotCarousel, Slide },
+    components: { DotCarousel, Slide, VImg, VIcon, VBtn, VLayout, VSpacer },
     template: `
       <dot-carousel title="Get Involved Nearby" :showDefaultPagination="true">
         ${eventSlide}
