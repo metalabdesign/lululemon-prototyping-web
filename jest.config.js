@@ -1,5 +1,4 @@
 module.exports = {
-  //cache: false, // Tried this, takes longer, still errors
   moduleFileExtensions: ["js", "jsx", "json", "vue"],
   transform: {
     "^.+\\.vue$": "vue-jest",
@@ -12,9 +11,14 @@ module.exports = {
   },
   snapshotSerializers: ["jest-serializer-vue"],
   testMatch: [
-    "**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)"
+    "**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)",
+    "**/src/**/*.spec.js"
   ],
   testURL: "http://localhost/",
   setupFiles: ["./tests/jest-setup.js"],
-  transformIgnorePatterns: ["node_modules/(?!(vuetify/|@storybook/.*\\.vue$))"]
+  transformIgnorePatterns: ["node_modules/(?!(vuetify/|@storybook/.*\\.vue$))"],
+  collectCoverageFrom: [
+    "**/src/**/*.{vue}",
+    "!**/node_modules/**"
+  ]
 };

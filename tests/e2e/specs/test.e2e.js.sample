@@ -1,8 +1,12 @@
 // https://docs.cypress.io/api/introduction/api.html
+// This is the Cypress default location for E2E tests.
+// However, this project config is modified to search for tests in /src/views instead.
 
+/*
 describe("My First Test", () => {
   it("Visits the app root url", () => {
     cy.visit("/");
     cy.contains("h1", "Welcome to Vuetify");
   });
 });
+*/

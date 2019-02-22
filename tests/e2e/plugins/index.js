@@ -16,9 +16,15 @@ module.exports = (on, config) => {
 
   return Object.assign({}, config, {
     fixturesFolder: "tests/e2e/fixtures",
-    integrationFolder: "tests/e2e/specs",
     screenshotsFolder: "tests/e2e/screenshots",
     videosFolder: "tests/e2e/videos",
-    supportFile: "tests/e2e/support/index.js"
+    supportFile: "tests/e2e/support/index.js",
+
+    // `integrationFolder` is changed from "tests/e2e/specs" to "src" to enable
+    // loading of tests from within component directories.
+    integrationFolder: "src",
+
+    // `testFiles` default: "**/*.*"
+    testFiles: "**/*.e2e.js",
   });
 };
