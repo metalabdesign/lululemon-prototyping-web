@@ -19,7 +19,7 @@ const appDecorator = () => {
   };
 };
 
-storiesOf("Dot Nav", module)
+storiesOf("Base/Dot Nav", module)
   .addDecorator(appDecorator)
   .add("default", () => ({
     components: { DotNav, VBtn },

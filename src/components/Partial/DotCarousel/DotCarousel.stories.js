@@ -47,7 +47,7 @@ const eventSlide = `
   </slide>
 `;
 
-storiesOf("Dot Carousel", module)
+storiesOf("Partial/Dot-Carousel", module)
   .addDecorator(appDecorator)
   .add("default", () => ({
     components: { DotCarousel, Slide, VImg, VIcon, VBtn, VLayout, VSpacer },

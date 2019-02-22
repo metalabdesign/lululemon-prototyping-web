@@ -37,19 +37,41 @@
         </accordion-content>        
       </accordion>
     </v-container>
+
+    <v-container>
+      <dot-carousel :title="`${possession} Upcoming Classes`">
+        <slide v-for="i in 5">
+          <v-img class="CarouselImage" src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg" cover height="300" style="filter: grayscale(100);">
+            <v-layout column fill-height>
+              <v-spacer></v-spacer>
+              <v-btn>RSVP</v-btn>
+            </v-layout>
+          </v-img>
+          <h3>Get Grounded, Underground</h3>
+          <div>
+            <v-icon>access_time</v-icon> 8AM • 1H
+            <v-icon>attach_money</v-icon> Free
+          </div>
+          <div><v-icon>location_on</v-icon> Pacific Centre</div>
+        </slide>
+      </dot-carousel>
+    </v-container>
   </div>
 </template>
   
 <script>
 import { mapActions, mapState } from "vuex";
+import truncate from 'vue-truncate-collapsed';
+import { Slide } from "vue-carousel";
+
 import AmbassadorHero from "./AmbassadorHero";
 import { Accordion, AccordionContent } from "@/components/Base/Accordion";
-import truncate from 'vue-truncate-collapsed';
-import { himifier } from "@/utils/pronouner";
+import { himifier, hisifier } from "@/utils/pronouner";
+import DotCarousel from "@/components/Partial/DotCarousel";
 
 export default {
   name: 'Ambassador',
-  components: { AmbassadorHero, Accordion, AccordionContent, truncate },
+  components: { AmbassadorHero, Accordion, AccordionContent, truncate, DotCarousel, Slide },
   mounted() {
     this.fetchDetails(this.$route.params.id)
   },
@@ -64,6 +86,9 @@ export default {
     pronoun: function () {
       return himifier(this.profile.gender);
     },
+    possession: function () {
+      return hisifier(this.profile.gender);
+    }
   },
   methods: {
     ...mapActions('ambassador', ['fetchDetails'])
@@ -82,5 +107,11 @@ export default {
     .info-accordion-header {
       color: rgba(0, 0, 0, 0.8);
     }
+  }
+</style>
+
+<style lang="styl">
+  .DotCarousel .DotNav-title {
+    text-transform: capitalize;
   }
 </style>

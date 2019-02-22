@@ -43,7 +43,7 @@
     "babel-plugin-require-context-hook": "^1.0.0",
     "babel-preset-vue": "^2.0.2",
     "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0",
+    "eslint-plugin-vue": "^5.0.0-beta.6",
     "http-server": "^0.11.1",
     "jest-vue-preprocessor": "^1.4.0",
     "node-sass": "^4.9.0",

@@ -19,7 +19,7 @@ const appDecorator = () => {
   };
 };
 
-storiesOf("Arrow Nav", module)
+storiesOf("Base/ArrowNav", module)
   .addDecorator(appDecorator)
   .add("default", () => ({
     components: { ArrowNav },

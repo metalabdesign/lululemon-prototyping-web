@@ -2,8 +2,7 @@ import { storiesOf } from "@storybook/vue";
 import { VApp, VContent, VImg } from "vuetify/lib"; // <-- add the import
 import { Slide } from "vue-carousel";
 
-import Carousel from "./Carousel.vue";
-import ArrowNav from "../ArrowNav/ArrowNav.vue";
+import BarCarousel from "./BarCarousel.vue";
 
 // Decorator for adding Storybook styles around the component to be rendered
 const appDecorator = () => {
@@ -28,38 +27,16 @@ const imageSlide = `
   </slide>
 `;
 
-storiesOf("Carousel", module)
+storiesOf("Partial/Bar-Carousel", module)
   .addDecorator(appDecorator)
   .add("default", () => ({
-    components: { Carousel, Slide, VImg },
+    components: { BarCarousel, Slide, VImg },
     template: `
-      <carousel>
+      <bar-carousel>
         ${imageSlide}
         ${imageSlide}
         ${imageSlide}
         ${imageSlide}
-        ${imageSlide}
-        ${imageSlide}
-      </carousel>
-    `
-  }))
-  .add("External Navigation", () => ({
-    components: { Carousel, Slide, ArrowNav, VImg },
-    data: () => ({
-      index: 0
-    }),
-    template: `
-      <div>
-        <arrow-nav v-on:left="index--" v-on:right="index++" />
-        <div>Index: {{ index }}</div>
-        <carousel :navigateTo="index">
-          ${imageSlide}
-          ${imageSlide}
-          ${imageSlide}
-          ${imageSlide}
-          ${imageSlide}
-          ${imageSlide}
-        </carousel>
-      </div>
+      </bar-carousel>
     `
   }));

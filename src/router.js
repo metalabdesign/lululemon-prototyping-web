@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Ambassador from "./views/Ambassador";
+import AmbassadorsHub from "./views/AmbassadorsHub";
 
 Vue.use(Router);
 
@@ -15,8 +16,7 @@ export default new Router({
     {
       path: "/ambassadors",
       name: "ambassadors",
-      component: () =>
-        import("./views/AmbassadorsHub")
+      component: AmbassadorsHub,
     },
     {
       path: "/ambassador/:id",

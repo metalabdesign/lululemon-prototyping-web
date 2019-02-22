@@ -1,7 +1,7 @@
 <template>
   <div class="DotNav">
     <div
-      class="title"
+      class="DotNav-title"
       v-if="title"
       v-bind:class="{ 'text-truncate': titleTruncate }"
     >
@@ -39,8 +39,9 @@ export default {
   align-items: center;
   margin-bottom: 1em;
 
-  .title {
+  .DotNav-title {
     margin-right: 1em;
+    font-size: 24px;
   }
 
   .dots {

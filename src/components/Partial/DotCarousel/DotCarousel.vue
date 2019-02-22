@@ -14,7 +14,7 @@
       paginationColor="rgba(0,0,0,0.2)"
       :paginationSize="8"
       :paginationPadding="3"
-      :spacePadding="40"
+      :spacePadding="0"
       :navigateTo="navigateTo"
       @pageChange="updateIndex"
     >
@@ -25,7 +25,7 @@
 
 <script>
 import { Carousel } from "vue-carousel";
-import DotNav from "../DotNav/DotNav";
+import DotNav from "../../Base/DotNav";
 
 export default {
   name: "DotCarousel",
@@ -65,8 +65,7 @@ export default {
     text-align: right;
   }
   .VueCarousel-slide {
-    width: 200px;
-    padding: 20px;
+    padding-right: 20px;
   }
 }
 </style>

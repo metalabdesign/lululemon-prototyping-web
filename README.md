@@ -88,4 +88,5 @@ Cypress (E2E) configuration is found at [tests/e2e/plugins/index.js](./tests/e2e
 
 ## References
 
-Storybook integration inspired by https://habr.com/en/post/438354/ and adapted for pure-ES6 transpilation.
+- Storybook integration inspired by https://habr.com/en/post/438354/ and adapted for pure-ES6 transpilation.
+- [Grouping Storybook Stories](https://medium.com/storybookjs/announcing-storybook-3-2-e00918a1764c)
