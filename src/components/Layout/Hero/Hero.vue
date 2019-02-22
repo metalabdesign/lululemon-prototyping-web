@@ -13,11 +13,11 @@
 </template>
 
 <script>
-import { VImg } from "vuetify/lib";
+import { VLayout, VImg } from "vuetify/lib";
 
 export default {
   name: "Hero",
-  components: { VImg },
+  components: { VLayout, VImg },
   props: ['src', 'size', 'alignment'],
   computed: {
     justifyClass: function () {

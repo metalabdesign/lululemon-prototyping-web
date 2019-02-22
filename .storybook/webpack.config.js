@@ -29,5 +29,10 @@ module.exports = (baseConfig, env, defaultConfig) => {
     loader: "style-loader!css-loader!stylus-loader"
   });
 
+  defaultConfig.module.rules.push({
+    test: /\.scss$/,
+    use: ["vue-style-loader", "css-loader", "sass-loader"]
+  });
+
   return defaultConfig;
 };

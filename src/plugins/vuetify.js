@@ -2,16 +2,30 @@ import Vue from "vue";
 import Vuetify, {
   VFlex,
   VLayout,
+  VSpacer,
   VContainer,
   VImg,
   VExpansionPanel,
+  VIcon,
+  VBtn,
   VApp,
   VContent
 } from "vuetify/lib";
 import '../custom-vuetify.styl';
 
 Vue.use(Vuetify, {
-  components: { VFlex, VLayout, VContainer, VImg, VApp, VContent, VExpansionPanel },
+  components: {
+    VFlex,
+    VLayout,
+    VSpacer,
+    VContainer,
+    VImg,
+    VIcon,
+    VBtn,
+    VApp,
+    VContent,
+    VExpansionPanel
+  },
   theme: {
     primary: "#ee44aa",
     secondary: "#424242",

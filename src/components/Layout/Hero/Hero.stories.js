@@ -2,7 +2,7 @@ import { storiesOf } from "@storybook/vue";
 import { VApp, VContent } from "vuetify/lib"; // <-- add the import
 
 import Hero from "./Hero.vue";
-import yoga2x from '../../assets/yoga@2x.png';
+import yoga2x from '../../../assets/yoga@2x.png';
 
 // Decorator for adding Storybook styles around the component to be rendered
 const appDecorator = () => {
@@ -20,7 +20,7 @@ const appDecorator = () => {
   };
 };
 
-storiesOf("Hero", module)
+storiesOf("Layout/Hero", module)
   .addDecorator(appDecorator)
   .add("default", () => ({
     components: { Hero },
@@ -60,30 +60,4 @@ storiesOf("Hero", module)
       </hero>
     `
   }))
-  .add("medium", () => ({
-    components: { Hero },
-    data: function() {
-      return {
-        image: yoga2x,
-      }
-    },
-    template: `<hero size="medium" :src="image"/>`
-  }))
-  .add("small", () => ({
-    components: { Hero },
-    data: function() {
-      return {
-        image: yoga2x,
-      }
-    },
-    template: `<hero size="small" :src="image"/>`
-  }))
-  .add("x-small", () => ({
-    components: { Hero },
-    data: function() {
-      return {
-        image: yoga2x,
-      }
-    },
-    template: `<hero size="x-small" :src="image"/>`
-  }))
+  

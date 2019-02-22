@@ -6,31 +6,31 @@
         {{ name }}
       </h1>
       <div class="mb-1">
-        {{ ambassadorLabel }} <a href=''>{{ storeLabel }}</a>
+        {{ ambassadorLabel }} <a href="">{{ storeLabel }}</a>
       </div>
       <div class="disciplines">
-        <template v-for="(discipline, index) in disciplines">
-          <a href="" class="discipline">{{ discipline }}</a>
-          <span v-if="index != disciplines.length - 1">, </span>
-        </template>
+        <span v-for="(discipline, index) in disciplines" :key="discipline">
+          <a href="#" class="discipline">{{ discipline }}</a>
+          <template v-if="index != disciplines.length - 1">, </template>
+        </span>
       </div>
     </template>
   </hero>
 </template>
 
 <script>
-import Hero from "@/components/Base/Hero";
+import Hero from "@/components/Layout/Hero";
 
 export default {
-  name: 'AmbassadorHero',
+  name: "AmbassadorHero",
   components: { Hero },
   props: {
     src: String,
     locationLabel: String,
     name: String,
     ambassadorType: {
-      validator: (value) => {
-        return ['store', 'elite', 'globalYoga']
+      validator: value => {
+        return ["store", "elite", "globalYoga"];
       }
     },
     storeLabel: String,
@@ -39,7 +39,7 @@ export default {
   },
   computed: {
     ambassadorLabel() {
-      switch(this.ambassadorType) {
+      switch (this.ambassadorType) {
         case "store":
           return "Store Ambassador";
         case "elite":
@@ -49,11 +49,9 @@ export default {
         default:
           return "Ambassador";
       }
-    },
-  },
+    }
+  }
 };
 </script>
 
-<style lang="css" scoped>
-
-</style>
+<style lang="css" scoped></style>

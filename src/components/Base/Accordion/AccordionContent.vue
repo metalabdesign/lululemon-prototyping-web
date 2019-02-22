@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import { VExpansionPanel } from "vuetify/lib"
+import { VExpansionPanelContent } from "vuetify/lib"
 
 export default {
   name: 'AccordionContent',
-  components: { VExpansionPanel },
+  components: { VExpansionPanelContent },
 };
 </script>
 

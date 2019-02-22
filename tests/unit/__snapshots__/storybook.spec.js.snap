@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots LoveButton default 1`] = `
+exports[`Storyshots Base/Accordion default 1`] = `
 <div
   class="application theme--light"
   data-app="true"
@@ -10,7 +10,7 @@ exports[`Storyshots LoveButton default 1`] = `
     class="application--wrap"
   >
     <div
-      style="background-color: rgb(134, 212, 226); padding: 20px; width: 100%; height: 100%;"
+      style="padding: 20px; width: 100%; height: 100%;"
     >
       <main
         class="v-content"
@@ -28,7 +28,7 @@ exports[`Storyshots LoveButton default 1`] = `
               class="application--wrap"
             >
               <div
-                style="background-color: rgb(134, 212, 226); padding: 20px; width: 100%; height: 100%;"
+                style="padding: 20px; width: 100%; height: 100%;"
               >
                 <main
                   class="v-content"
@@ -37,24 +37,3514 @@ exports[`Storyshots LoveButton default 1`] = `
                   <div
                     class="v-content__wrap"
                   >
-                    <button
-                      class="v-btn theme--light red"
-                      type="button"
+                    <div
+                      class="accordion"
+                    >
+                      <ul
+                        class="v-expansion-panel theme--light"
+                        style="box-shadow: none;"
+                      >
+                        <li
+                          class="v-expansion-panel__container"
+                          tabindex="0"
+                        >
+                          <div
+                            class="v-expansion-panel__header"
+                          >
+                            <div>
+                              <div
+                                class="info-accordion-header"
+                              >
+                                Test 1
+                              </div>
+                            </div>
+                            <div
+                              class="v-expansion-panel__header__icon"
+                            >
+                              <v-icon
+                                color="black"
+                              >
+                                $vuetify.icons.expand
+                              </v-icon>
+                            </div>
+                          </div>
+                          <div
+                            class="v-expansion-panel__body"
+                            style="display: none;"
+                          >
+                               
+                            <p>
+                              Some text
+                            </p>
+                          </div>
+                        </li>
+                         
+                        <li
+                          class="v-expansion-panel__container"
+                          tabindex="0"
+                        >
+                          <div
+                            class="v-expansion-panel__header"
+                          >
+                            <div>
+                              <div
+                                class="info-accordion-header"
+                              >
+                                Test 2
+                              </div>
+                            </div>
+                            <div
+                              class="v-expansion-panel__header__icon"
+                            >
+                              <v-icon
+                                color="black"
+                              >
+                                $vuetify.icons.expand
+                              </v-icon>
+                            </div>
+                          </div>
+                          <div
+                            class="v-expansion-panel__body"
+                            style="display: none;"
+                          >
+                               
+                            <p>
+                              Some text
+                            </p>
+                          </div>
+                        </li>
+                         
+                        <li
+                          class="v-expansion-panel__container"
+                          tabindex="0"
+                        >
+                          <div
+                            class="v-expansion-panel__header"
+                          >
+                            <div>
+                              <div
+                                class="info-accordion-header"
+                              >
+                                Test 3
+                              </div>
+                            </div>
+                            <div
+                              class="v-expansion-panel__header__icon"
+                            >
+                              <v-icon
+                                color="black"
+                              >
+                                $vuetify.icons.expand
+                              </v-icon>
+                            </div>
+                          </div>
+                          <div
+                            class="v-expansion-panel__body"
+                            style="display: none;"
+                          >
+                               
+                            <p>
+                              Some text
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Base/ArrowNav default 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div>
+                      <div>
+                        <button
+                          class="v-btn v-btn--flat v-btn--small theme--light"
+                          type="button"
+                        >
+                          <div
+                            class="v-btn__content"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon material-icons theme--light"
+                            >
+                              keyboard_arrow_left
+                            </i>
+                          </div>
+                        </button>
+                         
+                        <button
+                          class="v-btn v-btn--flat v-btn--small theme--light"
+                          type="button"
+                        >
+                          <div
+                            class="v-btn__content"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon material-icons theme--light"
+                            >
+                              keyboard_arrow_right
+                            </i>
+                          </div>
+                        </button>
+                      </div>
+                       
+                      <div
+                        style="margin-top: 60px;"
+                      >
+                        <div>
+                          Left clicks: 0
+                        </div>
+                         
+                        <div>
+                          Right clicks: 0
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Base/Dot Nav 2-Line Title 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div>
+                      <div
+                        class="DotNav"
+                      >
+                        <div
+                          class="DotNav-title"
+                        >
+                          
+    This Is A Super Looooooooooong Title
+  
+                        </div>
+                         
+                        <div
+                          class="dots"
+                        >
+                          <div
+                            class="dot distance-0"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-1"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-2"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-3"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-4"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                       
+                      <div
+                        style="margin-top: 60px;"
+                      >
+                        <div>
+                          Index: 0
+                        </div>
+                         
+                        <div>
+                          <button
+                            class="v-btn theme--light"
+                            type="button"
+                          >
+                            <div
+                              class="v-btn__content"
+                            >
+                              --
+                            </div>
+                          </button>
+                           
+                          <button
+                            class="v-btn theme--light"
+                            type="button"
+                          >
+                            <div
+                              class="v-btn__content"
+                            >
+                              ++
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Base/Dot Nav Overflow Title 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div>
+                      <div
+                        class="DotNav"
+                      >
+                        <div
+                          class="DotNav-title text-truncate"
+                        >
+                          
+    This Is A Super Looooooooooong Title
+  
+                        </div>
+                         
+                        <div
+                          class="dots"
+                        >
+                          <div
+                            class="dot distance-0"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-1"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-2"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-3"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-4"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                       
+                      <div
+                        style="margin-top: 60px;"
+                      >
+                        <div>
+                          Index: 0
+                        </div>
+                         
+                        <div>
+                          <button
+                            class="v-btn theme--light"
+                            type="button"
+                          >
+                            <div
+                              class="v-btn__content"
+                            >
+                              --
+                            </div>
+                          </button>
+                           
+                          <button
+                            class="v-btn theme--light"
+                            type="button"
+                          >
+                            <div
+                              class="v-btn__content"
+                            >
+                              ++
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Base/Dot Nav default 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div>
+                      <div
+                        class="DotNav"
+                      >
+                        <div
+                          class="DotNav-title"
+                        >
+                          
+    Get Involved Nearby
+  
+                        </div>
+                         
+                        <div
+                          class="dots"
+                        >
+                          <div
+                            class="dot distance-0"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-1"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-2"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-3"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-4"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                       
+                      <div
+                        style="margin-top: 60px;"
+                      >
+                        <div>
+                          Index: 0
+                        </div>
+                         
+                        <div>
+                          <button
+                            class="v-btn theme--light"
+                            type="button"
+                          >
+                            <div
+                              class="v-btn__content"
+                            >
+                              --
+                            </div>
+                          </button>
+                           
+                          <button
+                            class="v-btn theme--light"
+                            type="button"
+                          >
+                            <div
+                              class="v-btn__content"
+                            >
+                              ++
+                            </div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Base/Icons default 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div>
+                      <div
+                        style="display: flex; justify-content: space-between; align-items: center; margin: 1em 0px;"
+                      >
+                        <span
+                          style="width: 100px;"
+                        >
+                          lululemon
+                        </span>
+                         
+                        <svg
+                          class="svg-icon svg-fill"
+                          style="width: 14px; height: 14px;"
+                          version="1.1"
+                          viewBox="0 0 54 53"
+                        >
+                          <path
+                            _fill="#000"
+                            d="M27.256 0a26.36 26.36 0 0 1 26.37 26.36c0 14.557-11.8 26.358-26.356 26.36C12.713 52.722.91 40.924.906 26.367.903 11.81 12.7.006 27.256 0zm18.42 38.122a11.46 11.46 0 0 1-4.59 1.34 4.19 4.19 0 0 1-2.38-.76c-4.27-2.84-2.81-6.24.1-11.52a28.8 28.8 0 0 0 3.1-6.92c.61-2.56 1.16-6.29-1.06-9.11a9.72 9.72 0 0 0-4.71-3 28.18 28.18 0 0 0-8.3-1.15h-1.11a28.19 28.19 0 0 0-8.3 1.15 9.72 9.72 0 0 0-4.71 3c-2.22 2.82-1.67 6.55-1.05 9.11a28.6 28.6 0 0 0 3.07 6.92c2.91 5.27 4.37 8.68.1 11.52a4.17 4.17 0 0 1-2.38.76 11.48 11.48 0 0 1-4.55-1.34l.25.44c2.06 3.16 4.75 4.84 7.75 4.84a10.26 10.26 0 0 0 4.14-1 8.3 8.3 0 0 0 3.74-3.45 7.18 7.18 0 0 0 1-4.73 45 45 0 0 0-1.78-5.17c-2.1-5.44-5-12.87-2.49-16.5 1-1.53 2.93-2.28 5.75-2.29 2.82-.01 4.71.76 5.75 2.29 2.48 3.63-.39 11.06-2.49 16.49a45.64 45.64 0 0 0-1.81 5.21 7.17 7.17 0 0 0 1 4.74 8.31 8.31 0 0 0 3.74 3.46 10.28 10.28 0 0 0 4.14 1c3 0 5.72-1.68 7.84-4.86l.24-.47z"
+                            fill-rule="nonzero"
+                            pid="0"
+                          />
+                        </svg>
+                         
+                        <svg
+                          class="svg-icon svg-fill"
+                          style="width: 24px; height: 24px;"
+                          version="1.1"
+                          viewBox="0 0 54 53"
+                        >
+                          <path
+                            _fill="#000"
+                            d="M27.256 0a26.36 26.36 0 0 1 26.37 26.36c0 14.557-11.8 26.358-26.356 26.36C12.713 52.722.91 40.924.906 26.367.903 11.81 12.7.006 27.256 0zm18.42 38.122a11.46 11.46 0 0 1-4.59 1.34 4.19 4.19 0 0 1-2.38-.76c-4.27-2.84-2.81-6.24.1-11.52a28.8 28.8 0 0 0 3.1-6.92c.61-2.56 1.16-6.29-1.06-9.11a9.72 9.72 0 0 0-4.71-3 28.18 28.18 0 0 0-8.3-1.15h-1.11a28.19 28.19 0 0 0-8.3 1.15 9.72 9.72 0 0 0-4.71 3c-2.22 2.82-1.67 6.55-1.05 9.11a28.6 28.6 0 0 0 3.07 6.92c2.91 5.27 4.37 8.68.1 11.52a4.17 4.17 0 0 1-2.38.76 11.48 11.48 0 0 1-4.55-1.34l.25.44c2.06 3.16 4.75 4.84 7.75 4.84a10.26 10.26 0 0 0 4.14-1 8.3 8.3 0 0 0 3.74-3.45 7.18 7.18 0 0 0 1-4.73 45 45 0 0 0-1.78-5.17c-2.1-5.44-5-12.87-2.49-16.5 1-1.53 2.93-2.28 5.75-2.29 2.82-.01 4.71.76 5.75 2.29 2.48 3.63-.39 11.06-2.49 16.49a45.64 45.64 0 0 0-1.81 5.21 7.17 7.17 0 0 0 1 4.74 8.31 8.31 0 0 0 3.74 3.46 10.28 10.28 0 0 0 4.14 1c3 0 5.72-1.68 7.84-4.86l.24-.47z"
+                            fill-rule="nonzero"
+                            pid="0"
+                          />
+                        </svg>
+                         
+                        <svg
+                          class="svg-icon svg-fill"
+                          style="width: 34px; height: 34px;"
+                          version="1.1"
+                          viewBox="0 0 54 53"
+                        >
+                          <path
+                            _fill="#000"
+                            d="M27.256 0a26.36 26.36 0 0 1 26.37 26.36c0 14.557-11.8 26.358-26.356 26.36C12.713 52.722.91 40.924.906 26.367.903 11.81 12.7.006 27.256 0zm18.42 38.122a11.46 11.46 0 0 1-4.59 1.34 4.19 4.19 0 0 1-2.38-.76c-4.27-2.84-2.81-6.24.1-11.52a28.8 28.8 0 0 0 3.1-6.92c.61-2.56 1.16-6.29-1.06-9.11a9.72 9.72 0 0 0-4.71-3 28.18 28.18 0 0 0-8.3-1.15h-1.11a28.19 28.19 0 0 0-8.3 1.15 9.72 9.72 0 0 0-4.71 3c-2.22 2.82-1.67 6.55-1.05 9.11a28.6 28.6 0 0 0 3.07 6.92c2.91 5.27 4.37 8.68.1 11.52a4.17 4.17 0 0 1-2.38.76 11.48 11.48 0 0 1-4.55-1.34l.25.44c2.06 3.16 4.75 4.84 7.75 4.84a10.26 10.26 0 0 0 4.14-1 8.3 8.3 0 0 0 3.74-3.45 7.18 7.18 0 0 0 1-4.73 45 45 0 0 0-1.78-5.17c-2.1-5.44-5-12.87-2.49-16.5 1-1.53 2.93-2.28 5.75-2.29 2.82-.01 4.71.76 5.75 2.29 2.48 3.63-.39 11.06-2.49 16.49a45.64 45.64 0 0 0-1.81 5.21 7.17 7.17 0 0 0 1 4.74 8.31 8.31 0 0 0 3.74 3.46 10.28 10.28 0 0 0 4.14 1c3 0 5.72-1.68 7.84-4.86l.24-.47z"
+                            fill-rule="nonzero"
+                            pid="0"
+                          />
+                        </svg>
+                         
+                        <svg
+                          class="svg-icon svg-fill"
+                          style="width: 44px; height: 44px;"
+                          version="1.1"
+                          viewBox="0 0 54 53"
+                        >
+                          <path
+                            _fill="#000"
+                            d="M27.256 0a26.36 26.36 0 0 1 26.37 26.36c0 14.557-11.8 26.358-26.356 26.36C12.713 52.722.91 40.924.906 26.367.903 11.81 12.7.006 27.256 0zm18.42 38.122a11.46 11.46 0 0 1-4.59 1.34 4.19 4.19 0 0 1-2.38-.76c-4.27-2.84-2.81-6.24.1-11.52a28.8 28.8 0 0 0 3.1-6.92c.61-2.56 1.16-6.29-1.06-9.11a9.72 9.72 0 0 0-4.71-3 28.18 28.18 0 0 0-8.3-1.15h-1.11a28.19 28.19 0 0 0-8.3 1.15 9.72 9.72 0 0 0-4.71 3c-2.22 2.82-1.67 6.55-1.05 9.11a28.6 28.6 0 0 0 3.07 6.92c2.91 5.27 4.37 8.68.1 11.52a4.17 4.17 0 0 1-2.38.76 11.48 11.48 0 0 1-4.55-1.34l.25.44c2.06 3.16 4.75 4.84 7.75 4.84a10.26 10.26 0 0 0 4.14-1 8.3 8.3 0 0 0 3.74-3.45 7.18 7.18 0 0 0 1-4.73 45 45 0 0 0-1.78-5.17c-2.1-5.44-5-12.87-2.49-16.5 1-1.53 2.93-2.28 5.75-2.29 2.82-.01 4.71.76 5.75 2.29 2.48 3.63-.39 11.06-2.49 16.49a45.64 45.64 0 0 0-1.81 5.21 7.17 7.17 0 0 0 1 4.74 8.31 8.31 0 0 0 3.74 3.46 10.28 10.28 0 0 0 4.14 1c3 0 5.72-1.68 7.84-4.86l.24-.47z"
+                            fill-rule="nonzero"
+                            pid="0"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        style="display: flex; justify-content: space-between; align-items: center; margin: 1em 0px;"
+                      >
+                        <span
+                          style="width: 100px;"
+                        >
+                          menu
+                        </span>
+                         
+                        <svg
+                          class="svg-icon svg-fill"
+                          style="width: 14px; height: 14px;"
+                          version="1.1"
+                          viewBox="0 0 20 14"
+                        >
+                          <defs>
+                            <path
+                              d="M22 12c0 .6-.4 1-1 1H3c-.6 0-1-.4-1-1s.4-1 1-1h18c.6 0 1 .4 1 1zM3 7h18c.6 0 1-.4 1-1s-.4-1-1-1H3c-.6 0-1 .4-1 1s.4 1 1 1zm18 10H3c-.6 0-1 .4-1 1s.4 1 1 1h18c.6 0 1-.4 1-1s-.4-1-1-1z"
+                              id="svgicon_menu_a"
+                              pid="0"
+                            />
+                          </defs>
+                          <g
+                            _fill="none"
+                            fill-rule="evenodd"
+                            transform="translate(-2 -5)"
+                          >
+                            <mask
+                              _fill="#fff"
+                              id="svgicon_menu_b"
+                            >
+                              <use
+                                xlink:href="#svgicon_menu_a"
+                              />
+                            </mask>
+                            <use
+                              _fill="#000"
+                              fill-rule="nonzero"
+                              xlink:href="#svgicon_menu_a"
+                            />
+                            <g
+                              _fill="#000"
+                              mask="url(#svgicon_menu_b)"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                pid="1"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                         
+                        <svg
+                          class="svg-icon svg-fill"
+                          style="width: 24px; height: 24px;"
+                          version="1.1"
+                          viewBox="0 0 20 14"
+                        >
+                          <defs>
+                            <path
+                              d="M22 12c0 .6-.4 1-1 1H3c-.6 0-1-.4-1-1s.4-1 1-1h18c.6 0 1 .4 1 1zM3 7h18c.6 0 1-.4 1-1s-.4-1-1-1H3c-.6 0-1 .4-1 1s.4 1 1 1zm18 10H3c-.6 0-1 .4-1 1s.4 1 1 1h18c.6 0 1-.4 1-1s-.4-1-1-1z"
+                              id="svgicon_menu_a"
+                              pid="0"
+                            />
+                          </defs>
+                          <g
+                            _fill="none"
+                            fill-rule="evenodd"
+                            transform="translate(-2 -5)"
+                          >
+                            <mask
+                              _fill="#fff"
+                              id="svgicon_menu_b"
+                            >
+                              <use
+                                xlink:href="#svgicon_menu_a"
+                              />
+                            </mask>
+                            <use
+                              _fill="#000"
+                              fill-rule="nonzero"
+                              xlink:href="#svgicon_menu_a"
+                            />
+                            <g
+                              _fill="#000"
+                              mask="url(#svgicon_menu_b)"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                pid="1"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                         
+                        <svg
+                          class="svg-icon svg-fill"
+                          style="width: 34px; height: 34px;"
+                          version="1.1"
+                          viewBox="0 0 20 14"
+                        >
+                          <defs>
+                            <path
+                              d="M22 12c0 .6-.4 1-1 1H3c-.6 0-1-.4-1-1s.4-1 1-1h18c.6 0 1 .4 1 1zM3 7h18c.6 0 1-.4 1-1s-.4-1-1-1H3c-.6 0-1 .4-1 1s.4 1 1 1zm18 10H3c-.6 0-1 .4-1 1s.4 1 1 1h18c.6 0 1-.4 1-1s-.4-1-1-1z"
+                              id="svgicon_menu_a"
+                              pid="0"
+                            />
+                          </defs>
+                          <g
+                            _fill="none"
+                            fill-rule="evenodd"
+                            transform="translate(-2 -5)"
+                          >
+                            <mask
+                              _fill="#fff"
+                              id="svgicon_menu_b"
+                            >
+                              <use
+                                xlink:href="#svgicon_menu_a"
+                              />
+                            </mask>
+                            <use
+                              _fill="#000"
+                              fill-rule="nonzero"
+                              xlink:href="#svgicon_menu_a"
+                            />
+                            <g
+                              _fill="#000"
+                              mask="url(#svgicon_menu_b)"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                pid="1"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                         
+                        <svg
+                          class="svg-icon svg-fill"
+                          style="width: 44px; height: 44px;"
+                          version="1.1"
+                          viewBox="0 0 20 14"
+                        >
+                          <defs>
+                            <path
+                              d="M22 12c0 .6-.4 1-1 1H3c-.6 0-1-.4-1-1s.4-1 1-1h18c.6 0 1 .4 1 1zM3 7h18c.6 0 1-.4 1-1s-.4-1-1-1H3c-.6 0-1 .4-1 1s.4 1 1 1zm18 10H3c-.6 0-1 .4-1 1s.4 1 1 1h18c.6 0 1-.4 1-1s-.4-1-1-1z"
+                              id="svgicon_menu_a"
+                              pid="0"
+                            />
+                          </defs>
+                          <g
+                            _fill="none"
+                            fill-rule="evenodd"
+                            transform="translate(-2 -5)"
+                          >
+                            <mask
+                              _fill="#fff"
+                              id="svgicon_menu_b"
+                            >
+                              <use
+                                xlink:href="#svgicon_menu_a"
+                              />
+                            </mask>
+                            <use
+                              _fill="#000"
+                              fill-rule="nonzero"
+                              xlink:href="#svgicon_menu_a"
+                            />
+                            <g
+                              _fill="#000"
+                              mask="url(#svgicon_menu_b)"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                pid="1"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                      <div
+                        style="display: flex; justify-content: space-between; align-items: center; margin: 1em 0px;"
+                      >
+                        <span
+                          style="width: 100px;"
+                        >
+                          search
+                        </span>
+                         
+                        <svg
+                          class="svg-icon svg-fill"
+                          style="width: 14px; height: 14px;"
+                          version="1.1"
+                          viewBox="0 0 20 20"
+                        >
+                          <defs>
+                            <path
+                              d="M21.7 20.3l-4.5-4.5c1.1-1.4 1.8-3.3 1.8-5.3C19 5.8 15.2 2 10.5 2S2 5.8 2 10.5 5.8 19 10.5 19c2 0 3.8-.7 5.3-1.8l4.5 4.5c.2.2.5.3.7.3.2 0 .5-.1.7-.3.4-.4.4-1 0-1.4zM4 10.5C4 6.9 6.9 4 10.5 4S17 6.9 17 10.5c0 1.8-.7 3.4-1.9 4.6a6.42 6.42 0 0 1-4.6 1.9C6.9 17 4 14.1 4 10.5z"
+                              id="svgicon_search_a"
+                              pid="0"
+                            />
+                          </defs>
+                          <g
+                            _fill="none"
+                            fill-rule="evenodd"
+                            transform="translate(-2 -2)"
+                          >
+                            <mask
+                              _fill="#fff"
+                              id="svgicon_search_b"
+                            >
+                              <use
+                                xlink:href="#svgicon_search_a"
+                              />
+                            </mask>
+                            <use
+                              _fill="#000"
+                              fill-rule="nonzero"
+                              xlink:href="#svgicon_search_a"
+                            />
+                            <g
+                              _fill="#000"
+                              mask="url(#svgicon_search_b)"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                pid="1"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                         
+                        <svg
+                          class="svg-icon svg-fill"
+                          style="width: 24px; height: 24px;"
+                          version="1.1"
+                          viewBox="0 0 20 20"
+                        >
+                          <defs>
+                            <path
+                              d="M21.7 20.3l-4.5-4.5c1.1-1.4 1.8-3.3 1.8-5.3C19 5.8 15.2 2 10.5 2S2 5.8 2 10.5 5.8 19 10.5 19c2 0 3.8-.7 5.3-1.8l4.5 4.5c.2.2.5.3.7.3.2 0 .5-.1.7-.3.4-.4.4-1 0-1.4zM4 10.5C4 6.9 6.9 4 10.5 4S17 6.9 17 10.5c0 1.8-.7 3.4-1.9 4.6a6.42 6.42 0 0 1-4.6 1.9C6.9 17 4 14.1 4 10.5z"
+                              id="svgicon_search_a"
+                              pid="0"
+                            />
+                          </defs>
+                          <g
+                            _fill="none"
+                            fill-rule="evenodd"
+                            transform="translate(-2 -2)"
+                          >
+                            <mask
+                              _fill="#fff"
+                              id="svgicon_search_b"
+                            >
+                              <use
+                                xlink:href="#svgicon_search_a"
+                              />
+                            </mask>
+                            <use
+                              _fill="#000"
+                              fill-rule="nonzero"
+                              xlink:href="#svgicon_search_a"
+                            />
+                            <g
+                              _fill="#000"
+                              mask="url(#svgicon_search_b)"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                pid="1"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                         
+                        <svg
+                          class="svg-icon svg-fill"
+                          style="width: 34px; height: 34px;"
+                          version="1.1"
+                          viewBox="0 0 20 20"
+                        >
+                          <defs>
+                            <path
+                              d="M21.7 20.3l-4.5-4.5c1.1-1.4 1.8-3.3 1.8-5.3C19 5.8 15.2 2 10.5 2S2 5.8 2 10.5 5.8 19 10.5 19c2 0 3.8-.7 5.3-1.8l4.5 4.5c.2.2.5.3.7.3.2 0 .5-.1.7-.3.4-.4.4-1 0-1.4zM4 10.5C4 6.9 6.9 4 10.5 4S17 6.9 17 10.5c0 1.8-.7 3.4-1.9 4.6a6.42 6.42 0 0 1-4.6 1.9C6.9 17 4 14.1 4 10.5z"
+                              id="svgicon_search_a"
+                              pid="0"
+                            />
+                          </defs>
+                          <g
+                            _fill="none"
+                            fill-rule="evenodd"
+                            transform="translate(-2 -2)"
+                          >
+                            <mask
+                              _fill="#fff"
+                              id="svgicon_search_b"
+                            >
+                              <use
+                                xlink:href="#svgicon_search_a"
+                              />
+                            </mask>
+                            <use
+                              _fill="#000"
+                              fill-rule="nonzero"
+                              xlink:href="#svgicon_search_a"
+                            />
+                            <g
+                              _fill="#000"
+                              mask="url(#svgicon_search_b)"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                pid="1"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                         
+                        <svg
+                          class="svg-icon svg-fill"
+                          style="width: 44px; height: 44px;"
+                          version="1.1"
+                          viewBox="0 0 20 20"
+                        >
+                          <defs>
+                            <path
+                              d="M21.7 20.3l-4.5-4.5c1.1-1.4 1.8-3.3 1.8-5.3C19 5.8 15.2 2 10.5 2S2 5.8 2 10.5 5.8 19 10.5 19c2 0 3.8-.7 5.3-1.8l4.5 4.5c.2.2.5.3.7.3.2 0 .5-.1.7-.3.4-.4.4-1 0-1.4zM4 10.5C4 6.9 6.9 4 10.5 4S17 6.9 17 10.5c0 1.8-.7 3.4-1.9 4.6a6.42 6.42 0 0 1-4.6 1.9C6.9 17 4 14.1 4 10.5z"
+                              id="svgicon_search_a"
+                              pid="0"
+                            />
+                          </defs>
+                          <g
+                            _fill="none"
+                            fill-rule="evenodd"
+                            transform="translate(-2 -2)"
+                          >
+                            <mask
+                              _fill="#fff"
+                              id="svgicon_search_b"
+                            >
+                              <use
+                                xlink:href="#svgicon_search_a"
+                              />
+                            </mask>
+                            <use
+                              _fill="#000"
+                              fill-rule="nonzero"
+                              xlink:href="#svgicon_search_a"
+                            />
+                            <g
+                              _fill="#000"
+                              mask="url(#svgicon_search_b)"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                pid="1"
+                              />
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                      <div
+                        style="display: flex; justify-content: space-between; align-items: center; margin: 1em 0px;"
+                      >
+                        <span
+                          style="width: 100px;"
+                        >
+                          shoppingBag
+                        </span>
+                         
+                        <svg
+                          class="svg-icon svg-fill"
+                          style="width: 14px; height: 14px;"
+                          version="1.1"
+                          viewBox="0 0 14 14"
+                        />
+                         
+                        <svg
+                          class="svg-icon svg-fill"
+                          style="width: 24px; height: 24px;"
+                          version="1.1"
+                          viewBox="0 0 24 24"
+                        />
+                         
+                        <svg
+                          class="svg-icon svg-fill"
+                          style="width: 34px; height: 34px;"
+                          version="1.1"
+                          viewBox="0 0 34 34"
+                        />
+                         
+                        <svg
+                          class="svg-icon svg-fill"
+                          style="width: 44px; height: 44px;"
+                          version="1.1"
+                          viewBox="0 0 44 44"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout/Hero default 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div>
+                      <div
+                        class="v-responsive v-image image"
+                      >
+                        <div
+                          class="v-responsive__sizer"
+                          style="padding-bottom: 56.25%;"
+                        />
+                        <div
+                          class="v-responsive__content"
+                        >
+                          <div
+                            class="layout column content justify-end"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout/Hero large 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div>
+                      <div
+                        class="v-responsive v-image image"
+                      >
+                        <div
+                          class="v-responsive__sizer"
+                          style="padding-bottom: 133.86666666666667%;"
+                        />
+                        <div
+                          class="v-responsive__content"
+                        >
+                          <div
+                            class="layout column content justify-end"
+                            style="padding: 120px 40px;"
+                          >
+                            <div
+                              class="body-2 text-uppercase mb-2"
+                            >
+                              fri, jan 23
+                            </div>
+                             
+                            <h1
+                              class="display-4 mb-2"
+                            >
+                              
+            Get Grounded, Underground
+          
+                            </h1>
+                             
+                            <div>
+                              <div
+                                class="mb-2"
+                              >
+                                
+              Starts at 
+                                <span
+                                  class="text-uppercase"
+                                >
+                                  8am
+                                </span>
+                              </div>
+                               
+                              <div
+                                class="mb-2"
+                              >
+                                
+              Free * at Pacific Centre Store
+            
+                              </div>
+                               
+                              <div>
+                                
+              Hosted by Carlos Roberts-Oso
+            
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Layout/Toolbar default 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <nav
+                      class="v-toolbar v-toolbar--dense theme--light"
+                      style="margin-top: 0px; padding-right: 0px; padding-left: 0px; transform: translateY(0px);"
                     >
                       <div
-                        class="v-btn__content"
+                        class="v-toolbar__content"
+                        style="height: 48px;"
                       >
-                        <i
-                          aria-hidden="true"
-                          class="v-icon material-icons theme--light"
+                        <div
+                          class="v-toolbar__title headline text-uppercase"
                         >
-                          favorite
-                        </i>
-                        
-  vue
-
+                          <svg
+                            class="svg-icon svg-fill"
+                            style="width: 24px; height: 24px;"
+                            version="1.1"
+                            viewBox="0 0 54 53"
+                          >
+                            <path
+                              _fill="#000"
+                              d="M27.256 0a26.36 26.36 0 0 1 26.37 26.36c0 14.557-11.8 26.358-26.356 26.36C12.713 52.722.91 40.924.906 26.367.903 11.81 12.7.006 27.256 0zm18.42 38.122a11.46 11.46 0 0 1-4.59 1.34 4.19 4.19 0 0 1-2.38-.76c-4.27-2.84-2.81-6.24.1-11.52a28.8 28.8 0 0 0 3.1-6.92c.61-2.56 1.16-6.29-1.06-9.11a9.72 9.72 0 0 0-4.71-3 28.18 28.18 0 0 0-8.3-1.15h-1.11a28.19 28.19 0 0 0-8.3 1.15 9.72 9.72 0 0 0-4.71 3c-2.22 2.82-1.67 6.55-1.05 9.11a28.6 28.6 0 0 0 3.07 6.92c2.91 5.27 4.37 8.68.1 11.52a4.17 4.17 0 0 1-2.38.76 11.48 11.48 0 0 1-4.55-1.34l.25.44c2.06 3.16 4.75 4.84 7.75 4.84a10.26 10.26 0 0 0 4.14-1 8.3 8.3 0 0 0 3.74-3.45 7.18 7.18 0 0 0 1-4.73 45 45 0 0 0-1.78-5.17c-2.1-5.44-5-12.87-2.49-16.5 1-1.53 2.93-2.28 5.75-2.29 2.82-.01 4.71.76 5.75 2.29 2.48 3.63-.39 11.06-2.49 16.49a45.64 45.64 0 0 0-1.81 5.21 7.17 7.17 0 0 0 1 4.74 8.31 8.31 0 0 0 3.74 3.46 10.28 10.28 0 0 0 4.14 1c3 0 5.72-1.68 7.84-4.86l.24-.47z"
+                              fill-rule="nonzero"
+                              pid="0"
+                            />
+                          </svg>
+                        </div>
+                         
+                        <div
+                          class="spacer"
+                        />
                       </div>
-                    </button>
+                    </nav>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Partial/Bar-Carousel default 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <section
+                      class="VueCarousel bar-nav"
+                    >
+                      <div
+                        class="VueCarousel-wrapper"
+                      >
+                        <div
+                          class="VueCarousel-inner"
+                          style="transform: translate(0px, 0); visibility: hidden; height: auto;"
+                        >
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <div
+                              class="v-responsive v-image CarouselImage"
+                              cover=""
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
+                          </div>
+                           
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <div
+                              class="v-responsive v-image CarouselImage"
+                              cover=""
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
+                          </div>
+                           
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <div
+                              class="v-responsive v-image CarouselImage"
+                              cover=""
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
+                          </div>
+                           
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <div
+                              class="v-responsive v-image CarouselImage"
+                              cover=""
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                       
+                      <!---->
+                       
+                      <div
+                        class="VueCarousel-pagination VueCarousel-pagination--bottom-overlay"
+                        data-v-438fd353=""
+                        style="display: none;"
+                      >
+                        <div
+                          class="VueCarousel-dot-container"
+                          data-v-438fd353=""
+                          role="tablist"
+                          style="margin-top: 20px;"
+                        />
+                      </div>
+                    </section>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Partial/Carousel External Navigation 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div>
+                      <div>
+                        <button
+                          class="v-btn v-btn--flat v-btn--small theme--light"
+                          type="button"
+                        >
+                          <div
+                            class="v-btn__content"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon material-icons theme--light"
+                            >
+                              keyboard_arrow_left
+                            </i>
+                          </div>
+                        </button>
+                         
+                        <button
+                          class="v-btn v-btn--flat v-btn--small theme--light"
+                          type="button"
+                        >
+                          <div
+                            class="v-btn__content"
+                          >
+                            <i
+                              aria-hidden="true"
+                              class="v-icon material-icons theme--light"
+                            >
+                              keyboard_arrow_right
+                            </i>
+                          </div>
+                        </button>
+                      </div>
+                       
+                      <div>
+                        Index: 0
+                      </div>
+                       
+                      <section
+                        class="VueCarousel"
+                      >
+                        <div
+                          class="VueCarousel-wrapper"
+                        >
+                          <div
+                            class="VueCarousel-inner"
+                            style="transform: translate(0px, 0); visibility: hidden; height: auto;"
+                          >
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                />
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                />
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                />
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                />
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                />
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              style="padding-right: 20px;"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                         
+                        <!---->
+                         
+                        <!---->
+                      </section>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Partial/Carousel default 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <section
+                      class="VueCarousel"
+                    >
+                      <div
+                        class="VueCarousel-wrapper"
+                      >
+                        <div
+                          class="VueCarousel-inner"
+                          style="transform: translate(0px, 0); visibility: hidden; height: auto;"
+                        >
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <div
+                              class="v-responsive v-image CarouselImage"
+                              cover=""
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
+                          </div>
+                           
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <div
+                              class="v-responsive v-image CarouselImage"
+                              cover=""
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
+                          </div>
+                           
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <div
+                              class="v-responsive v-image CarouselImage"
+                              cover=""
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
+                          </div>
+                           
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <div
+                              class="v-responsive v-image CarouselImage"
+                              cover=""
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
+                          </div>
+                           
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <div
+                              class="v-responsive v-image CarouselImage"
+                              cover=""
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
+                          </div>
+                           
+                          <div
+                            aria-hidden="true"
+                            class="VueCarousel-slide"
+                            role="tabpanel"
+                            style="padding-right: 20px;"
+                            tabindex="-1"
+                          >
+                            <div
+                              class="v-responsive v-image CarouselImage"
+                              cover=""
+                              style="height: 300px;"
+                            >
+                              <div
+                                class="v-image__image v-image__image--preload v-image__image--cover"
+                                style="background-position: center center;"
+                              />
+                              <div
+                                class="v-responsive__content"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                       
+                      <!---->
+                       
+                      <!---->
+                    </section>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Partial/Dot-Carousel Default Nav 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div
+                      class="DotCarousel"
+                    >
+                      <div
+                        class="DotNav"
+                      >
+                        <div
+                          class="DotNav-title"
+                        >
+                          
+    Get Involved Nearby
+  
+                        </div>
+                         
+                        <div
+                          class="dots"
+                        >
+                          <div
+                            class="dot distance-0"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-1"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-2"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-3"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-4"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                       
+                      <section
+                        class="VueCarousel dot-carousel VueCarousel--reverse"
+                      >
+                        <div
+                          class="VueCarousel-wrapper"
+                        >
+                          <div
+                            class="VueCarousel-inner VueCarousel-inner--center"
+                            style="transform: translate(0px, 0); visibility: visible; height: auto; padding-left: 40px; padding-right: 40px;"
+                          >
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                >
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  access_time
+                                </i>
+                                 8AM • 1H
+      
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  attach_money
+                                </i>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  location_on
+                                </i>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                >
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  access_time
+                                </i>
+                                 8AM • 1H
+      
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  attach_money
+                                </i>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  location_on
+                                </i>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                >
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  access_time
+                                </i>
+                                 8AM • 1H
+      
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  attach_money
+                                </i>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  location_on
+                                </i>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                >
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  access_time
+                                </i>
+                                 8AM • 1H
+      
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  attach_money
+                                </i>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  location_on
+                                </i>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                >
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  access_time
+                                </i>
+                                 8AM • 1H
+      
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  attach_money
+                                </i>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  location_on
+                                </i>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                         
+                        <!---->
+                         
+                        <div
+                          class="VueCarousel-pagination"
+                          data-v-438fd353=""
+                          style="display: none;"
+                        >
+                          <div
+                            class="VueCarousel-dot-container"
+                            data-v-438fd353=""
+                            role="tablist"
+                            style="margin-top: 6px;"
+                          />
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Partial/Dot-Carousel Long Title 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div
+                      class="DotCarousel"
+                    >
+                      <div
+                        class="DotNav"
+                      >
+                        <div
+                          class="DotNav-title"
+                        >
+                          
+    Find Hot Yogis Right Now Near {userGeoArea}
+  
+                        </div>
+                         
+                        <div
+                          class="dots"
+                        >
+                          <div
+                            class="dot distance-0"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-1"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-2"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-3"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-4"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                       
+                      <section
+                        class="VueCarousel dot-carousel VueCarousel--reverse"
+                      >
+                        <div
+                          class="VueCarousel-wrapper"
+                        >
+                          <div
+                            class="VueCarousel-inner VueCarousel-inner--center"
+                            style="transform: translate(0px, 0); visibility: visible; height: auto; padding-left: 40px; padding-right: 40px;"
+                          >
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                >
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  access_time
+                                </i>
+                                 8AM • 1H
+      
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  attach_money
+                                </i>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  location_on
+                                </i>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                >
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  access_time
+                                </i>
+                                 8AM • 1H
+      
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  attach_money
+                                </i>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  location_on
+                                </i>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                >
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  access_time
+                                </i>
+                                 8AM • 1H
+      
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  attach_money
+                                </i>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  location_on
+                                </i>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                >
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  access_time
+                                </i>
+                                 8AM • 1H
+      
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  attach_money
+                                </i>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  location_on
+                                </i>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                >
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  access_time
+                                </i>
+                                 8AM • 1H
+      
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  attach_money
+                                </i>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  location_on
+                                </i>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                         
+                        <!---->
+                         
+                        <!---->
+                      </section>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Partial/Dot-Carousel default 1`] = `
+<div
+  class="application theme--light"
+  data-app="true"
+  id="app"
+>
+  <div
+    class="application--wrap"
+  >
+    <div
+      style="padding: 20px; width: 100%; height: 100%;"
+    >
+      <main
+        class="v-content"
+        style="padding: 0px 0px 0px 0px;"
+      >
+        <div
+          class="v-content__wrap"
+        >
+          <div
+            class="application theme--light"
+            data-app="true"
+            id="app"
+          >
+            <div
+              class="application--wrap"
+            >
+              <div
+                style="padding: 20px; width: 100%; height: 100%;"
+              >
+                <main
+                  class="v-content"
+                  style="padding: 0px 0px 0px 0px;"
+                >
+                  <div
+                    class="v-content__wrap"
+                  >
+                    <div
+                      class="DotCarousel"
+                    >
+                      <div
+                        class="DotNav"
+                      >
+                        <div
+                          class="DotNav-title"
+                        >
+                          
+    Get Involved Nearby
+  
+                        </div>
+                         
+                        <div
+                          class="dots"
+                        >
+                          <div
+                            class="dot distance-0"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-1"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-2"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-3"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                          <div
+                            class="dot distance-4"
+                          >
+                            <div
+                              class="dot-img"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                       
+                      <section
+                        class="VueCarousel dot-carousel VueCarousel--reverse"
+                      >
+                        <div
+                          class="VueCarousel-wrapper"
+                        >
+                          <div
+                            class="VueCarousel-inner VueCarousel-inner--center"
+                            style="transform: translate(0px, 0); visibility: visible; height: auto; padding-left: 40px; padding-right: 40px;"
+                          >
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                >
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  access_time
+                                </i>
+                                 8AM • 1H
+      
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  attach_money
+                                </i>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  location_on
+                                </i>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                >
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  access_time
+                                </i>
+                                 8AM • 1H
+      
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  attach_money
+                                </i>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  location_on
+                                </i>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                >
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  access_time
+                                </i>
+                                 8AM • 1H
+      
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  attach_money
+                                </i>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  location_on
+                                </i>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                >
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  access_time
+                                </i>
+                                 8AM • 1H
+      
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  attach_money
+                                </i>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  location_on
+                                </i>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                             
+                            <div
+                              aria-hidden="true"
+                              class="VueCarousel-slide"
+                              role="tabpanel"
+                              tabindex="-1"
+                            >
+                              <div
+                                class="v-responsive v-image CarouselImage"
+                                cover=""
+                                style="height: 300px;"
+                              >
+                                <div
+                                  class="v-image__image v-image__image--preload v-image__image--cover"
+                                  style="background-position: center center;"
+                                />
+                                <div
+                                  class="v-responsive__content"
+                                >
+                                  <div
+                                    class="layout column fill-height"
+                                  >
+                                    <div
+                                      class="spacer"
+                                    />
+                                     
+                                    <button
+                                      class="v-btn theme--light"
+                                      type="button"
+                                    >
+                                      <div
+                                        class="v-btn__content"
+                                      >
+                                        RSVP
+                                      </div>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                               
+                              <h3>
+                                Get Grounded, Underground
+                              </h3>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  access_time
+                                </i>
+                                 8AM • 1H
+      
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  attach_money
+                                </i>
+                                 Free
+    
+                              </div>
+                               
+                              <div>
+                                <i
+                                  aria-hidden="true"
+                                  class="v-icon material-icons theme--light"
+                                >
+                                  location_on
+                                </i>
+                                 Pacific Centre
+                              </div>
+                               
+                              <div>
+                                with Courtney Bailey
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                         
+                        <!---->
+                         
+                        <!---->
+                      </section>
+                    </div>
                   </div>
                 </main>
               </div>

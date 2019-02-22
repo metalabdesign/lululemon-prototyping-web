@@ -1,3 +1,7 @@
+/**
+ * Tests can be placed in this directory, or beside each component in `/src/*`.
+ */
+/*
 import { shallowMount } from "@vue/test-utils";
 import HelloWorld from "@/components/HelloWorld.vue";
 
@@ -10,3 +14,4 @@ describe("HelloWorld.vue", () => {
     expect(wrapper.text()).toMatch(msg);
   });
 });
+*/
