@@ -18,7 +18,7 @@
         <accordion-content v-if="profile.accolades && profile.accolades.length > 0">
           <div class="info-accordion-header" slot="header">Qualifications</div>
           <ul>
-            <li v-for="(accolade, index) in profile.accolades" :key="index">
+            <li v-for="(accolade, index) in profile.accolades" :key="accolade">
               {{ accolade }}
             </li>
           </ul>
@@ -30,7 +30,7 @@
         <accordion-content v-if="profile.funFacts && profile.funFacts.length > 0">
           <div class="info-accordion-header" slot="header">Fun Facts</div>
           <ul>
-            <li v-for="(fact, index) in profile.funFacts" :key="index">
+            <li v-for="(fact, index) in profile.funFacts" :key="fact">
               {{ fact }}
             </li>
           </ul>
