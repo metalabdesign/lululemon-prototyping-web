@@ -8,7 +8,7 @@
       {{ title }}
     </div>
     <div class="dots">
-      <div class="dot" v-for="(_, i) in numDots" v-bind:class="buildClasses(i)">
+      <div class="dot" v-for="(_, i) in numDots" v-bind:class="buildClasses(i)" :key="i">
         <div class="dot-img"></div>
       </div>
     </div>

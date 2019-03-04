@@ -40,7 +40,7 @@
 
     <v-container>
       <dot-carousel :title="`${possession} Upcoming Classes`">
-        <slide v-for="i in 5">
+        <slide v-for="i in 5" :key="i">
           <v-img class="CarouselImage" src="https://c.stocksy.com/a/Y5L000/z9/81068.jpg" cover height="300" style="filter: grayscale(100);">
             <v-layout column fill-height>
               <v-spacer></v-spacer>
